@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Run on Firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.nopcommerce.user.Admin_01_Search_Products">
+        <methods>
+          <include name="Admin_07_Create_New_Customer"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.nopcommerce.user.Admin_01_Search_Products -->
+    </classes>
+  </test> <!-- Run on Firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

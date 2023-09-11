@@ -1,0 +1,5 @@
+[INFO ] [2023-09-08 19:01:47,426] Pre-condition - Step 01: Open browser
+[INFO ] [2023-09-08 19:01:56,948] Admin_01_Search_With_Product_Name: Click to Customers
+[INFO ] [2023-09-08 19:01:58,339] Admin_01_Search_With_Product_Name: Click to circle Customers
+[INFO ] [2023-09-08 19:02:00,222] Admin_01_Search_With_Product_Name: Click to add new
+[INFO ] [2023-09-08 19:02:02,557] Admin_01_Search_With_Product_Name: Input to email with: automationfc@gmail.com

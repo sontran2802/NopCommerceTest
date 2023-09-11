@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+
+<listeners>
+
+<listener class-name = "commons.MethodListener"/>
+<listener class-name = "reportConfig.AllureTestListener"/>
+<listeners/>
+ 
+   <test name="Run on Firefox">
+  <parameter name="browser" value= "firefox"/>
+    <classes>
+      <class name="com.nopcommerce.user.Admin_01_Search_Products"/>
+    </classes>
+  </test> <!-- Test -->
+</listeners>
+</suite> <!-- Suite -->
+
+
+
+
+
