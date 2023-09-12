@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>D:\Testing\workspace\hybrid-bankguru-framework\resources\runAdminNopCommerceTest2.xml</span>
+                    <span>D:\Testing\workspace\nopcommere-test\resources\runAdminNopCommerceTest2.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">7 methods, 1 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.nopcommerce.user.Admin_01_Search_Products" class="method navigator-link" hash-for-method="Admin_06_Search_With_Product_Go_Directly">Admin_06_Search_With_Product_Go_Directly</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,6 +114,31 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.nopcommerce.user.Admin_01_Search_Products" class="method navigator-link" hash-for-method="Admin_01_Search_With_Product_Name">Admin_01_Search_With_Product_Name</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.nopcommerce.user.Admin_01_Search_Products" class="method navigator-link" hash-for-method="Admin_02_Search_With_Product_Name_Catefory">Admin_02_Search_With_Product_Name_Catefory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.nopcommerce.user.Admin_01_Search_Products" class="method navigator-link" hash-for-method="Admin_03_Search_With_Product_Name_Catefory_Checked">Admin_03_Search_With_Product_Name_Catefory_Checked</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.nopcommerce.user.Admin_01_Search_Products" class="method navigator-link" hash-for-method="Admin_04_Search_With_Product_Name_Child_Catefory">Admin_04_Search_With_Product_Name_Child_Catefory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.nopcommerce.user.Admin_01_Search_Products" class="method navigator-link" hash-for-method="Admin_05_Search_With_Product_Name_ManuFacTurer">Admin_05_Search_With_Product_Name_ManuFacTurer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.nopcommerce.user.Admin_01_Search_Products" class="method navigator-link" hash-for-method="Admin_07_Create_New_Customer">Admin_07_Create_New_Customer</a> <!-- method navigator-link -->
@@ -117,12 +156,75 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.nopcommerce.user.Admin_01_Search_Products</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Admin_06_Search_With_Product_Go_Directly">
+                  </a> <!-- Admin_06_Search_With_Product_Go_Directly -->
+                  <span class="method-name">Admin_06_Search_With_Product_Go_Directly</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //p[contains(text(),&apos; Products&apos;)]/parent::a/i (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-M8CJ0LM&apos;, ip: &apos;172.17.52.180&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14536, moz:profile: C:\Users\ths28\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: efc3db14-0aa8-44c8-b023-7fbcd38cdba8
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at commons.BasePage.waitForElementVisible(BasePage.java:445)
+	at pageObjects.nopCommerce.admin.AdminDashBoardPageObject.clickToSidebarBylabel(AdminDashBoardPageObject.java:21)
+	at com.nopcommerce.user.Admin_01_Search_Products.Admin_06_Search_With_Product_Go_Directly(Admin_01_Search_Products.java:143)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">com.nopcommerce.user.Admin_01_Search_Products</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Admin_01_Search_With_Product_Name">
+                  </a> <!-- Admin_01_Search_With_Product_Name -->
+                  <span class="method-name">Admin_01_Search_With_Product_Name</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Admin_02_Search_With_Product_Name_Catefory">
+                  </a> <!-- Admin_02_Search_With_Product_Name_Catefory -->
+                  <span class="method-name">Admin_02_Search_With_Product_Name_Catefory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Admin_03_Search_With_Product_Name_Catefory_Checked">
+                  </a> <!-- Admin_03_Search_With_Product_Name_Catefory_Checked -->
+                  <span class="method-name">Admin_03_Search_With_Product_Name_Catefory_Checked</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Admin_04_Search_With_Product_Name_Child_Catefory">
+                  </a> <!-- Admin_04_Search_With_Product_Name_Child_Catefory -->
+                  <span class="method-name">Admin_04_Search_With_Product_Name_Child_Catefory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Admin_05_Search_With_Product_Name_ManuFacTurer">
+                  </a> <!-- Admin_05_Search_With_Product_Name_ManuFacTurer -->
+                  <span class="method-name">Admin_05_Search_With_Product_Name_ManuFacTurer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="Admin_07_Create_New_Customer">
@@ -135,7 +237,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\Testing\workspace\hybrid-bankguru-framework\resources\runAdminNopCommerceTest2.xml</span>
+            <span class="header-content">D:\Testing\workspace\nopcommere-test\resources\runAdminNopCommerceTest2.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -185,16 +287,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Admin_07_Create_New_Customer')
+data.setCell(0, 1, 'Admin_06_Search_With_Product_Go_Directly')
 data.setCell(0, 2, 'com.nopcommerce.user.Admin_01_Search_Products')
-data.setCell(0, 3, 6021);
+data.setCell(0, 3, 31420);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Admin_07_Create_New_Customer')
+data.setCell(1, 2, 'com.nopcommerce.user.Admin_01_Search_Products')
+data.setCell(1, 3, 6170);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Admin_01_Search_With_Product_Name')
+data.setCell(2, 2, 'com.nopcommerce.user.Admin_01_Search_Products')
+data.setCell(2, 3, 4047);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Admin_05_Search_With_Product_Name_ManuFacTurer')
+data.setCell(3, 2, 'com.nopcommerce.user.Admin_01_Search_Products')
+data.setCell(3, 3, 1435);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Admin_04_Search_With_Product_Name_Child_Catefory')
+data.setCell(4, 2, 'com.nopcommerce.user.Admin_01_Search_Products')
+data.setCell(4, 3, 1274);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Admin_03_Search_With_Product_Name_Catefory_Checked')
+data.setCell(5, 2, 'com.nopcommerce.user.Admin_01_Search_Products')
+data.setCell(5, 3, 1037);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Admin_02_Search_With_Product_Name_Catefory')
+data.setCell(6, 2, 'com.nopcommerce.user.Admin_01_Search_Products')
+data.setCell(6, 3, 997);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 46 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -206,15 +332,125 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
+              <span class="reporter-method-name">Admin_04_Search_With_Product_Name_Child_Catefory</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:04,271] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:04,435] Admin_01_Search_With_Product_Name: Select category with computers - desktops
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:05,072] Admin_01_Search_With_Product_Name: Click button search product
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:05,451]  -------------------------- PASSED -------------------------- 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:05,451] Admin_01_Search_With_Product_Name: Get text product name 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:05,501]  -------------------------- PASSED -------------------------- 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:05,501] Admin_01_Search_With_Product_Name: Get text price product 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:05,542]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
               <span class="reporter-method-name">Admin_07_Create_New_Customer</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">[INFO ] [2023-09-08 19:01:56,948] Admin_01_Search_With_Product_Name: Click to Customers
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:38,422] Admin_01_Search_With_Product_Name: Click to Customers
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2023-09-08 19:01:58,339] Admin_01_Search_With_Product_Name: Click to circle Customers
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:39,818] Admin_01_Search_With_Product_Name: Click to circle Customers
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2023-09-08 19:02:00,222] Admin_01_Search_With_Product_Name: Click to add new
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:42,137] Admin_01_Search_With_Product_Name: Click to add new
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2023-09-08 19:02:02,557] Admin_01_Search_With_Product_Name: Input to email with: automationfc@gmail.com
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:44,228] Admin_01_Search_With_Product_Name: Input to email with: automationfc@gmail.com
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Admin_02_Search_With_Product_Name_Catefory</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:02,231] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:02,418] Admin_01_Search_With_Product_Name: Select category with computers
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:02,740] Admin_01_Search_With_Product_Name: Click button search product
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:03,078] Admin_01_Search_With_Product_Name: Verify search no data
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:03,224]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Admin_03_Search_With_Product_Name_Catefory_Checked</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:03,232] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:03,405] Admin_01_Search_With_Product_Name: Select category with computers
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:03,785] Admin_01_Search_With_Product_Name: Click button search product
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:04,154]  -------------------------- PASSED -------------------------- 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:04,154] Admin_01_Search_With_Product_Name: Get text product name 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:04,220]  -------------------------- PASSED -------------------------- 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:04,220] Admin_01_Search_With_Product_Name: Get text price product 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:04,266]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Admin_05_Search_With_Product_Name_ManuFacTurer</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:05,547] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:05,724] Admin_01_Search_With_Product_Name: Select category with computers - desktops
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:06,038] Admin_01_Search_With_Product_Name: Unselect search by checkbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:06,140] Admin_01_Search_With_Product_Name: Select manufacturer with Apple
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:06,463] Admin_01_Search_With_Product_Name: Click button search product
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:06,829] Admin_01_Search_With_Product_Name: Verify search no data
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:06,978]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Admin_01_Search_With_Product_Name</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:11:58,178] Admin_01_Search_With_Product_Name: Click to Catalog
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:11:59,496] Admin_01_Search_With_Product_Name: Click to Products
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:01,458] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:01,625] Admin_01_Search_With_Product_Name: Click button search product
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:01,955] Admin_01_Search_With_Product_Name: Get size products
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:02,047]  -------------------------- PASSED -------------------------- 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:02,048] Admin_01_Search_With_Product_Name: Get text product name 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:02,107]  -------------------------- PASSED -------------------------- 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:02,107] Admin_01_Search_With_Product_Name: Get text price product 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:02,152]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Admin_06_Search_With_Product_Go_Directly</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:06,984] Admin_01_Search_With_Product_Name: Click to Catalog
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2023-09-11 18:12:08,290] Admin_01_Search_With_Product_Name: Click to Products
 <br></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -239,9 +475,39 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">Admin_07_Create_New_Customer</span>
-                <span class="method-start">9475 ms</span>
+                <span class="method-name">Admin_01_Search_With_Product_Name</span>
+                <span class="method-start">10699 ms</span>
               </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Admin_02_Search_With_Product_Name_Catefory</span>
+                <span class="method-start">14821 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Admin_03_Search_With_Product_Name_Catefory_Checked</span>
+                <span class="method-start">15823 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Admin_04_Search_With_Product_Name_Child_Catefory</span>
+                <span class="method-start">16862 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Admin_05_Search_With_Product_Name_ManuFacTurer</span>
+                <span class="method-start">18138 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Admin_06_Search_With_Product_Go_Directly</span>
+                <span class="method-start">19575 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Admin_07_Create_New_Customer</span>
+                <span class="method-start">51011 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">affterClass</span>
+                <span class="method-start">57185 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -4948,3 +4948,861 @@
 [INFO ] [2023-09-08 19:01:58,339] Admin_01_Search_With_Product_Name: Click to circle Customers
 [INFO ] [2023-09-08 19:02:00,222] Admin_01_Search_With_Product_Name: Click to add new
 [INFO ] [2023-09-08 19:02:02,557] Admin_01_Search_With_Product_Name: Input to email with: automationfc@gmail.com
+[INFO ] [2023-09-11 17:02:56,437] Pre-condition - Step 01: Open browser
+[INFO ] [2023-09-11 17:03:11,271] Admin_01_Search_With_Product_Name: Click to Customers
+[INFO ] [2023-09-11 17:03:12,607] Admin_01_Search_With_Product_Name: Click to circle Customers
+[INFO ] [2023-09-11 17:03:14,703] Admin_01_Search_With_Product_Name: Click to add new
+[INFO ] [2023-09-11 17:03:17,321] Admin_01_Search_With_Product_Name: Input to email with: automationfc@gmail.com
+[INFO ] [2023-09-11 17:03:24,697] User_03_My_account - Step 01: Click to RegisterLink
+[INFO ] [2023-09-11 17:12:56,217] Pre-condition - Step 01: Open browser
+[INFO ] [2023-09-11 17:13:06,481] Admin_01_Search_With_Product_Name: Click to Customers
+[INFO ] [2023-09-11 17:13:07,835] Admin_01_Search_With_Product_Name: Click to circle Customers
+[INFO ] [2023-09-11 17:13:09,738] Admin_01_Search_With_Product_Name: Click to add new
+[INFO ] [2023-09-11 17:13:12,425] Admin_01_Search_With_Product_Name: Input to email with: automationfc@gmail.com
+[INFO ] [2023-09-11 17:13:18,458] User_03_My_account - Step 01: Click to RegisterLink
+[INFO ] [2023-09-11 17:13:19,041] UUser_03_My_account - Step 02: In put to first name with value: Autonmation
+[INFO ] [2023-09-11 17:13:19,155] User_03_My_account - Step 02: In put to last name with value: FC
+[INFO ] [2023-09-11 17:13:19,256] User_03_My_account - Step 02: In put to email with value: Automation5818@gmail.com
+[INFO ] [2023-09-11 17:13:19,354] User_03_My_account - Step 02: In put to password with value: 123456
+[INFO ] [2023-09-11 17:13:19,436] User_03_My_account - Step 02: In put to confirm password with value: 123456
+[INFO ] [2023-09-11 17:13:19,528] User_03_My_account - Step 03: Click to Button Register
+[INFO ] [2023-09-11 17:13:20,838] User_03_My_account - Step 04: Click to login link
+[INFO ] [2023-09-11 17:13:21,359] User_03_My_account - Step 05: In put to email with value: Automation5818@gmail.com
+[INFO ] [2023-09-11 17:13:21,482] User_03_My_account - Step 06: In put to password with value: 123456
+[INFO ] [2023-09-11 17:13:21,595] User_03_My_account - Step 07: Click to Button Login
+[INFO ] [2023-09-11 17:13:22,374] User_03_My_account - Step 08: Verify login success
+[INFO ] [2023-09-11 17:13:22,453]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:13:22,931] User_07_Wishlist - Step 01: Click to add to cart with product title apple macbook
+[INFO ] [2023-09-11 17:13:24,266] User_07_Wishlist - Step 01: Click to add to wishlist 
+[INFO ] [2023-09-11 17:13:25,040]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:13:26,338]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:13:26,339] User_07_Wishlist - Step 01: Click share info link 
+[INFO ] [2023-09-11 17:13:26,942] User_07_Wishlist - Step 01: Click to checkbox add to cart 
+[INFO ] [2023-09-11 17:13:27,261] User_07_Wishlist - Step 02: Click to button add to cart 
+[INFO ] [2023-09-11 17:13:28,860] User_07_Wishlist - Step 03: Verify add product success
+[INFO ] [2023-09-11 17:13:28,942]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:13:29,525]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:13:30,009] User_07_Wishlist - Step 01: Click to add to cart with product title apple macbook
+[INFO ] [2023-09-11 17:13:34,327]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:13:34,401]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:13:34,461]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:13:35,710]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:13:42,196]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:13:43,091] Pre-condition - Step 01: Open browser
+[INFO ] [2023-09-11 17:13:47,577] User_01_Register - Step 01: Click to RegisterLink
+[INFO ] [2023-09-11 17:13:48,769] User_01_Register - Step 02: Click to Button Register
+[INFO ] [2023-09-11 17:13:49,099] User_01_Register - Step 03: Verify error message first name
+[INFO ] [2023-09-11 17:13:49,159]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:13:49,159] User_01_Register - Step 03: Verify error message last name
+[INFO ] [2023-09-11 17:13:49,204]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:13:49,204] User_01_Register - Step 03: Verify error message email
+[INFO ] [2023-09-11 17:13:49,267]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:13:49,267] User_01_Register - Step 03: Verify error message password
+[INFO ] [2023-09-11 17:13:49,312]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:13:49,312] User_01_Register - Step 03: Verify error message confirm password
+[INFO ] [2023-09-11 17:13:49,359]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:13:49,365] User_01_Register - Step 01: Click to RegisterLink
+[INFO ] [2023-09-11 17:13:50,312] User_01_Register - Step 02: In put to first name with value: Autonmation
+[INFO ] [2023-09-11 17:13:50,438] User_01_Register - Step 02: In put to last name with value: FC
+[INFO ] [2023-09-11 17:13:50,524] User_01_Register - Step 02: In put to email with value: Automation5916@gmai.com
+[INFO ] [2023-09-11 17:13:50,615] User_01_Register - Step 02: In put to password with value: 123456
+[INFO ] [2023-09-11 17:13:50,717] User_01_Register - Step 02: In put to confirm password with value: 123456
+[INFO ] [2023-09-11 17:13:50,803] User_01_Register - Step 03: Click to Button Register
+[INFO ] [2023-09-11 17:13:51,099] User_01_Register - Step 04: Verify error message invalid email
+[INFO ] [2023-09-11 17:13:51,199]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:13:51,207] User_01_Register - Step 01: Click to RegisterLink
+[INFO ] [2023-09-11 17:13:51,700] User_01_Register - Step 02: In put to first name with value: Autonmation
+[INFO ] [2023-09-11 17:13:51,799] User_01_Register - Step 02: In put to last name with value: FC
+[INFO ] [2023-09-11 17:13:51,896] User_01_Register - Step 02: In put to email with value: Automation5916@gmai.com
+[INFO ] [2023-09-11 17:13:51,993] User_01_Register - Step 02: In put to password with value: 123456
+[INFO ] [2023-09-11 17:13:52,075] User_01_Register - Step 02: In put to confirm password with value: 123456
+[INFO ] [2023-09-11 17:13:52,155] User_01_Register - Step 03: Click to Button Register
+[INFO ] [2023-09-11 17:13:53,458] User_01_Register - Step 04: Verify register success
+[INFO ] [2023-09-11 17:13:53,518]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:13:53,524] User_01_Register - Step 01: Click to RegisterLink
+[INFO ] [2023-09-11 17:13:53,953] User_01_Register - Step 02: In put to first name with value: Autonmation
+[INFO ] [2023-09-11 17:13:54,075] User_01_Register - Step 02: In put to last name with value: FC
+[INFO ] [2023-09-11 17:13:54,188] User_01_Register - Step 02: In put to email with value: Automation5916@gmai.com
+[INFO ] [2023-09-11 17:13:54,283] User_01_Register - Step 02: In put to password with value: 123456
+[INFO ] [2023-09-11 17:13:54,363] User_01_Register - Step 02: In put to confirm password with value: 123456
+[INFO ] [2023-09-11 17:13:54,443] User_01_Register - Step 03: Click to Button Register
+[INFO ] [2023-09-11 17:13:54,902] User_01_Register - Step 04: Verify error message existing email
+[INFO ] [2023-09-11 17:13:54,968]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:13:54,974] User_01_Register - Step 01: Click to RegisterLink
+[INFO ] [2023-09-11 17:13:55,415] User_01_Register - Step 02: In put to first name with value: Autonmation
+[INFO ] [2023-09-11 17:13:55,538] User_01_Register - Step 02: In put to last name with value: FC
+[INFO ] [2023-09-11 17:13:55,626] User_01_Register - Step 02: In put to email with value: Automation5916@gmai.com
+[INFO ] [2023-09-11 17:13:55,722] User_01_Register - Step 02: In put to password with value: 
+[INFO ] [2023-09-11 17:13:55,808] User_01_Register - Step 02: In put to confirm password with value: 123456
+[INFO ] [2023-09-11 17:13:55,909] User_01_Register - Step 03: Click to Button Register
+[INFO ] [2023-09-11 17:13:56,686] User_01_Register - Step 04: Verify error message password at least 6 character
+[INFO ] [2023-09-11 17:13:56,758]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:13:56,768] User_01_Register - Step 01: Click to RegisterLink
+[INFO ] [2023-09-11 17:13:57,230] User_01_Register - Step 02: In put to first name with value: Autonmation
+[INFO ] [2023-09-11 17:13:57,330] User_01_Register - Step 02: In put to last name with value: FC
+[INFO ] [2023-09-11 17:13:57,422] User_01_Register - Step 02: In put to email with value: Automation5916@gmai.com
+[INFO ] [2023-09-11 17:13:57,519] User_01_Register - Step 02: In put to password with value: 
+[INFO ] [2023-09-11 17:13:57,604] User_01_Register - Step 02: In put to confirm password with value: 123567
+[INFO ] [2023-09-11 17:13:57,679] User_01_Register - Step 03: Click to Button Register
+[INFO ] [2023-09-11 17:13:58,445] User_01_Register - Step 04: Verify error message confirm password
+[INFO ] [2023-09-11 17:13:58,518]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:14:03,787] User_03_My_account - Step 01: Click to RegisterLink
+[INFO ] [2023-09-11 17:14:04,849] UUser_03_My_account - Step 02: In put to first name with value: Autonmation
+[INFO ] [2023-09-11 17:14:04,959] User_03_My_account - Step 02: In put to last name with value: FC
+[INFO ] [2023-09-11 17:14:05,050] User_03_My_account - Step 02: In put to email with value: Automation2047@gmail.com
+[INFO ] [2023-09-11 17:14:05,149] User_03_My_account - Step 02: In put to password with value: 123456
+[INFO ] [2023-09-11 17:14:05,243] User_03_My_account - Step 02: In put to confirm password with value: 123456
+[INFO ] [2023-09-11 17:14:05,334] User_03_My_account - Step 03: Click to Button Register
+[INFO ] [2023-09-11 17:14:06,438] User_03_My_account - Step 04: Click to login link
+[INFO ] [2023-09-11 17:14:41,606] User_02_Login - Step 01: Click to RegisterLink
+[INFO ] [2023-09-11 17:14:42,720] User_02_Login - Step 02: In put to first name with value: Autonmation
+[INFO ] [2023-09-11 17:14:42,837] User_02_Login - Step 02: In put to last name with value: FC
+[INFO ] [2023-09-11 17:14:42,973] User_02_Login - Step 02: In put to email with value: Automation2935@gmail.com
+[INFO ] [2023-09-11 17:14:43,081] User_02_Login - Step 02: In put to password with value: 123456
+[INFO ] [2023-09-11 17:14:43,176] User_02_Login - Step 02: In put to confirm password with value: 123456
+[INFO ] [2023-09-11 17:14:43,257] User_02_Login - Step 03: Click to Button Register
+[INFO ] [2023-09-11 17:14:45,036] User_02_Login - Step 01: Click to login link
+[INFO ] [2023-09-11 17:14:45,347] User_02_Login - Step 02: Verify error message email
+[INFO ] [2023-09-11 17:14:45,420]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:14:51,431] User_03_My_account - Step 01: Click to RegisterLink
+[INFO ] [2023-09-11 17:14:52,613] UUser_03_My_account - Step 02: In put to first name with value: Autonmation
+[INFO ] [2023-09-11 17:14:52,734] User_03_My_account - Step 02: In put to last name with value: FC
+[INFO ] [2023-09-11 17:14:52,829] User_03_My_account - Step 02: In put to email with value: Automation5147@gmail.com
+[INFO ] [2023-09-11 17:14:52,919] User_03_My_account - Step 02: In put to password with value: 123456
+[INFO ] [2023-09-11 17:14:53,003] User_03_My_account - Step 02: In put to confirm password with value: 123456
+[INFO ] [2023-09-11 17:14:53,081] User_03_My_account - Step 03: Click to Button Register
+[INFO ] [2023-09-11 17:14:54,447] User_03_My_account - Step 04: Click to login link
+[INFO ] [2023-09-11 17:14:54,947] User_03_My_account - Step 05: In put to email with value: Automation5147@gmail.com
+[INFO ] [2023-09-11 17:14:55,059] User_03_My_account - Step 06: In put to password with value: 123456
+[INFO ] [2023-09-11 17:14:55,154] User_03_My_account - Step 07: Click to Button Login
+[INFO ] [2023-09-11 17:14:56,402] User_03_My_account - Step 08: Verify login success
+[INFO ] [2023-09-11 17:14:56,493]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:14:56,497] User_03_My_account - Step 01: Click link my account
+[INFO ] [2023-09-11 17:14:56,921] User_03_My_account - Step 02: Click radio button gender
+[INFO ] [2023-09-11 17:14:57,198] User_03_My_account - Step 02: Input to first name with value: Autonmation
+[INFO ] [2023-09-11 17:14:57,339] User_03_My_account - Step 02: Input to last name with value: FC
+[INFO ] [2023-09-11 17:14:57,438] User_03_My_account - Step 02: Select date of birth
+[INFO ] [2023-09-11 17:14:57,749] User_03_My_account - Step 02: Select month of birth
+[INFO ] [2023-09-11 17:14:58,104] User_03_My_account - Step 02: Select year of birth
+[INFO ] [2023-09-11 17:14:58,401] User_03_My_account - Step 02: Input to email with value: Automation5147@gmail.com
+[INFO ] [2023-09-11 17:14:58,550] User_03_My_account - Step 02: Input to company name with value: Automation FC
+[INFO ] [2023-09-11 17:14:58,651] User_03_My_account - Step 03: Click to button save 
+[INFO ] [2023-09-11 17:14:59,931] User_03_My_account - Step 04: Verify radio gender update success
+[INFO ] [2023-09-11 17:15:00,001]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:00,001] User_03_My_account - Step 04: Verify first name update success
+[INFO ] [2023-09-11 17:15:00,081]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:00,081] User_03_My_account - Step 04: Verify last name update success
+[INFO ] [2023-09-11 17:15:00,139]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:00,139] User_03_My_account - Step 04: Verify date of birth selected
+[INFO ] [2023-09-11 17:15:00,184]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:00,184] User_03_My_account - Step 04: Verify month of birth selected
+[INFO ] [2023-09-11 17:15:00,232]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:00,232] User_03_My_account - Step 04: Verify year of birth selected
+[INFO ] [2023-09-11 17:15:00,278]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:00,278] User_03_My_account - Step 04: Verify email update success
+[INFO ] [2023-09-11 17:15:00,340]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:00,340] User_03_My_account - Step 04: Verify company name update success
+[INFO ] [2023-09-11 17:15:00,417]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:00,423] User_03_My_account - Step 01: Click to link addresses
+[INFO ] [2023-09-11 17:15:01,387] User_03_My_account - Step 02: Click to button add new 
+[INFO ] [2023-09-11 17:15:02,151] User_03_My_account - Step 03: Input to first name
+[INFO ] [2023-09-11 17:15:02,241] User_03_My_account - Step 03: Input to last name
+[INFO ] [2023-09-11 17:15:02,335] User_03_My_account - Step 03: Input to email
+[INFO ] [2023-09-11 17:15:02,429] User_03_My_account - Step 03: Input to company
+[INFO ] [2023-09-11 17:15:02,516] User_03_My_account - Step 03: Select to country
+[INFO ] [2023-09-11 17:15:02,831] User_03_My_account - Step 03: Select to province
+[INFO ] [2023-09-11 17:15:02,832] User_03_My_account - Step 03: Input to city
+[INFO ] [2023-09-11 17:15:03,011] User_03_My_account - Step 03: Input to address 1
+[INFO ] [2023-09-11 17:15:03,122] User_03_My_account - Step 03: Input to address 2
+[INFO ] [2023-09-11 17:15:03,240] User_03_My_account - Step 03: Input to postal code
+[INFO ] [2023-09-11 17:15:03,359] User_03_My_account - Step 03: Input to phone number
+[INFO ] [2023-09-11 17:15:03,471] User_03_My_account - Step 03: Input to fax number
+[INFO ] [2023-09-11 17:15:03,667] User_03_My_account - Step 04: Click to button save
+[INFO ] [2023-09-11 17:15:05,237] User_03_My_account - Step 05: Verify last name + first name update success
+[INFO ] [2023-09-11 17:15:05,316]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:05,317] User_03_My_account - Step 05: Verify email update success
+[INFO ] [2023-09-11 17:15:05,381]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:05,441] User_03_My_account - Step 05: Verify phone number update success
+[INFO ] [2023-09-11 17:15:05,503]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:05,503] User_03_My_account - Step 05: Verify fax number update success
+[INFO ] [2023-09-11 17:15:05,565]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:05,565] User_03_My_account - Step 05: Verify company update success
+[INFO ] [2023-09-11 17:15:05,623]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:05,623] User_03_My_account - Step 05: Verify address 1 update success
+[INFO ] [2023-09-11 17:15:05,667]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:05,668] User_03_My_account - Step 05: Verify address 2 update success
+[INFO ] [2023-09-11 17:15:05,714]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:05,714] User_03_My_account - Step 05: Verify city state zip update success
+[INFO ] [2023-09-11 17:15:05,760]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:05,760] User_03_My_account - Step 05: Verify country update success
+[INFO ] [2023-09-11 17:15:05,809]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:05,813] User_03_My_account - Step 01: Click to link change password
+[INFO ] [2023-09-11 17:15:06,546] User_03_My_account - Step 03: Input to old password
+[INFO ] [2023-09-11 17:15:06,641] User_03_My_account - Step 03: Input to new password
+[INFO ] [2023-09-11 17:15:06,732] User_03_My_account - Step 03: Input to confirm password
+[INFO ] [2023-09-11 17:15:06,867] User_03_My_account - Step 03: Click to button change password
+[INFO ] [2023-09-11 17:15:07,352] User_03_My_account - Step 04: Verify bar notification success
+[INFO ] [2023-09-11 17:15:07,444]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:07,444] User_03_My_account - Step 04: Close bar notification success
+[INFO ] [2023-09-11 17:15:08,713] User_03_My_account - Step 05: Click to log out link
+[INFO ] [2023-09-11 17:15:09,620] User_03_My_account - Step 06: Click to log in link
+[INFO ] [2023-09-11 17:15:10,075] User_03_My_account - Step 07: Input to email address
+[INFO ] [2023-09-11 17:15:10,199] User_03_My_account - Step 07: Input to old password
+[INFO ] [2023-09-11 17:15:10,298] User_03_My_account - Step 08: Click to button log in
+[INFO ] [2023-09-11 17:15:10,779] User_03_My_account - Step 08: Verify log in failed
+[INFO ] [2023-09-11 17:15:10,840]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:10,840] User_03_My_account - Step 09: Input to email address
+[INFO ] [2023-09-11 17:15:10,985] User_03_My_account - Step 09: Input to new password
+[INFO ] [2023-09-11 17:15:11,066] User_03_My_account - Step 08: Click to button log in
+[INFO ] [2023-09-11 17:15:11,811] User_03_My_account - Step 10: Verify log in success
+[INFO ] [2023-09-11 17:15:11,920]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:18,134] User_03_My_account - Step 01: Click to RegisterLink
+[INFO ] [2023-09-11 17:15:19,387] UUser_03_My_account - Step 02: In put to first name with value: Autonmation
+[INFO ] [2023-09-11 17:15:19,501] User_03_My_account - Step 02: In put to last name with value: FC
+[INFO ] [2023-09-11 17:15:19,605] User_03_My_account - Step 02: In put to email with value: Automation7488@gmail.com
+[INFO ] [2023-09-11 17:15:19,708] User_03_My_account - Step 02: In put to password with value: 123456
+[INFO ] [2023-09-11 17:15:19,797] User_03_My_account - Step 02: In put to confirm password with value: 123456
+[INFO ] [2023-09-11 17:15:19,890] User_03_My_account - Step 03: Click to Button Register
+[INFO ] [2023-09-11 17:15:20,789] User_03_My_account - Step 04: Click to login link
+[INFO ] [2023-09-11 17:15:21,282] User_03_My_account - Step 05: In put to email with value: Automation7488@gmail.com
+[INFO ] [2023-09-11 17:15:21,408] User_03_My_account - Step 06: In put to password with value: 123456
+[INFO ] [2023-09-11 17:15:21,519] User_03_My_account - Step 07: Click to Button Login
+[INFO ] [2023-09-11 17:15:22,317] User_03_My_account - Step 08: Verify login success
+[INFO ] [2023-09-11 17:15:22,486]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:23,117] User_04_Search - Step 01: Click to button search
+[INFO ] [2023-09-11 17:15:24,145] User_04_Search - Step 02:Verify error message less 3 characters
+[INFO ] [2023-09-11 17:15:24,210]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:24,214] User_04_Search - Step 01: Input to search with data not exist: Macbook Pro 2050
+[INFO ] [2023-09-11 17:15:24,310] User_04_Search - Step 02: Click to button search
+[INFO ] [2023-09-11 17:15:24,805] User_04_Search - Step 03: Verify products not found
+[INFO ] [2023-09-11 17:15:24,880]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:24,884] User_04_Search - Step 01: Input to search with data relative: Lenovo
+[INFO ] [2023-09-11 17:15:24,983] User_04_Search - Step 02: Click to button search
+[INFO ] [2023-09-11 17:15:25,502] User_04_Search - Step 03: Verify products Lenovo IdeaCentre 600 All-in-One PC isdisplay
+[INFO ] [2023-09-11 17:15:25,597]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:25,597] User_04_Search - Step 03: Verify products Lenovo Thinkpad X1 Carbon Laptop
+[INFO ] [2023-09-11 17:15:25,672]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:25,676] User_04_Search - Step 01: Input to search with data relative: Lenovo Thinkpad X1 Carbon Laptop
+[INFO ] [2023-09-11 17:15:25,819] User_04_Search - Step 02: Click to button search
+[INFO ] [2023-09-11 17:15:26,280] User_04_Search - Step 03: Verify products Lenovo Thinkpad X1 Carbon Laptop
+[INFO ] [2023-09-11 17:15:26,386]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:26,392] User_04_Search - Step 01: Input to search with data: Apple MacBook Pro
+[INFO ] [2023-09-11 17:15:26,514] User_04_Search - Step 02: Click to checkbox advanced search
+[INFO ] [2023-09-11 17:15:26,800] User_04_Search - Step 03: Select with label category
+[INFO ] [2023-09-11 17:15:27,103] User_04_Search - Step 04: Click to button search
+[INFO ] [2023-09-11 17:15:28,230] User_04_Search - Step 05: Verify products not found
+[INFO ] [2023-09-11 17:15:28,311]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:28,315] User_04_Search - Step 01: Input to search with data: Apple MacBook Pro
+[INFO ] [2023-09-11 17:15:28,421] User_04_Search - Step 02: Click to checkbox advanced search
+[INFO ] [2023-09-11 17:15:28,463] User_04_Search - Step 03: Select with label category
+[INFO ] [2023-09-11 17:15:28,556] User_04_Search - Step 04: Click to checkbox automatically search
+[INFO ] [2023-09-11 17:15:28,833] User_04_Search - Step 05: Click to button search
+[INFO ] [2023-09-11 17:15:29,444] User_04_Search - Step 06: Verify products Apple Macbook Pro 13-inch isdisplay
+[INFO ] [2023-09-11 17:15:29,540]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:29,545] User_04_Search - Step 01: Input to search with data: Apple MacBook Pro
+[INFO ] [2023-09-11 17:15:29,665] User_04_Search - Step 02: Click to checkbox advanced search
+[INFO ] [2023-09-11 17:15:29,706] User_04_Search - Step 03: Select with label category
+[INFO ] [2023-09-11 17:15:29,783] User_04_Search - Step 04: Click to checkbox automatically search
+[INFO ] [2023-09-11 17:15:29,846] User_04_Search - Step 05: Select with label manufacturer
+[INFO ] [2023-09-11 17:15:30,152] User_04_Search - Step 06: Click to button search
+[INFO ] [2023-09-11 17:15:31,320] User_04_Search - Step 07: Verify products not found
+[INFO ] [2023-09-11 17:15:31,403]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:31,410] User_04_Search - Step 01: Input to search with data: Apple MacBook Pro
+[INFO ] [2023-09-11 17:15:31,532] User_04_Search - Step 02: Click to checkbox advanced search
+[INFO ] [2023-09-11 17:15:31,597] User_04_Search - Step 03: Select with label category
+[INFO ] [2023-09-11 17:15:31,667] User_04_Search - Step 04: Click to checkbox automatically search
+[INFO ] [2023-09-11 17:15:31,729] User_04_Search - Step 05: Select with label manufacturer
+[INFO ] [2023-09-11 17:15:32,034] User_04_Search - Step 06: Click to button search
+[INFO ] [2023-09-11 17:15:32,636] User_04_Search - Step 07: Verify products Apple Macbook Pro 13-inch isdisplay
+[INFO ] [2023-09-11 17:15:32,746]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:38,585] User_03_My_account - Step 01: Click to RegisterLink
+[INFO ] [2023-09-11 17:15:39,696] UUser_03_My_account - Step 02: In put to first name with value: Autonmation
+[INFO ] [2023-09-11 17:15:39,799] User_03_My_account - Step 02: In put to last name with value: FC
+[INFO ] [2023-09-11 17:15:39,896] User_03_My_account - Step 02: In put to email with value: Automation6325@gmail.com
+[INFO ] [2023-09-11 17:15:39,990] User_03_My_account - Step 02: In put to password with value: 123456
+[INFO ] [2023-09-11 17:15:40,086] User_03_My_account - Step 02: In put to confirm password with value: 123456
+[INFO ] [2023-09-11 17:15:40,181] User_03_My_account - Step 03: Click to Button Register
+[INFO ] [2023-09-11 17:15:41,583] User_03_My_account - Step 04: Click to login link
+[INFO ] [2023-09-11 17:15:42,093] User_03_My_account - Step 05: In put to email with value: Automation6325@gmail.com
+[INFO ] [2023-09-11 17:15:42,220] User_03_My_account - Step 06: In put to password with value: 123456
+[INFO ] [2023-09-11 17:15:42,316] User_03_My_account - Step 07: Click to Button Login
+[INFO ] [2023-09-11 17:15:43,094] User_03_My_account - Step 08: Verify login success
+[INFO ] [2023-09-11 17:15:43,186]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:43,186] User_03_My_account - Step 08: Open sort products
+[INFO ] [2023-09-11 17:15:43,842] User_05_Products_Sort - Step 01: open note books
+[INFO ] [2023-09-11 17:15:45,568] User_05_Products_Sort - Step 02: Select to type sort 
+[INFO ] [2023-09-11 17:15:46,940] User_05_Products_Sort - Step 03: Verify sort from A to Z
+[INFO ] [2023-09-11 17:15:47,011]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:47,015] User_05_Products_Sort - Step 01: Select to type sort 
+[INFO ] [2023-09-11 17:15:48,326] User_05_Products_Sort - Step 02: Verify sort from Z to A
+[INFO ] [2023-09-11 17:15:48,387]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:48,394] User_05_Products_Sort - Step 01: Select to type sort 
+[INFO ] [2023-09-11 17:15:49,703] User_05_Products_Sort - Step 02: Verify sort from Low to High
+[INFO ] [2023-09-11 17:15:49,795]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:49,802] User_05_Products_Sort - Step 01: Select to type sort 
+[INFO ] [2023-09-11 17:15:51,135] User_05_Products_Sort - Step 02: Verify sort from High to Low
+[INFO ] [2023-09-11 17:15:51,205]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:51,208] User_05_Products_Sort - Step 01: Select to type display 3 products 
+[INFO ] [2023-09-11 17:15:52,518] User_05_Products_Sort - Step 02: Verify display 3 products 
+[INFO ] [2023-09-11 17:15:52,632]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:52,632] User_05_Products_Sort - Step 02: Verify next page icon isdisplay
+[INFO ] [2023-09-11 17:15:52,751]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:52,751] User_05_Products_Sort - Step 03: Click to icon next page
+[INFO ] [2023-09-11 17:15:53,080] User_05_Products_Sort - Step 02: Verify previous page icon isdisplay
+[INFO ] [2023-09-11 17:15:53,251]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:53,259] User_05_Products_Sort - Step 01: Select to type display 6 products 
+[INFO ] [2023-09-11 17:15:54,574] User_05_Products_Sort - Step 02: Verify next page icon undisplay
+[INFO ] [2023-09-11 17:15:59,636]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:15:59,654] User_05_Products_Sort - Step 01: Select to type display 9 products 
+[INFO ] [2023-09-11 17:16:01,004] User_05_Products_Sort - Step 02: Verify next page icon undisplay
+[INFO ] [2023-09-11 17:16:06,065]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:18:53,389] User_03_My_account - Step 01: Click to RegisterLink
+[INFO ] [2023-09-11 17:18:54,581] UUser_03_My_account - Step 02: In put to first name with value: Autonmation
+[INFO ] [2023-09-11 17:18:54,715] User_03_My_account - Step 02: In put to last name with value: FC
+[INFO ] [2023-09-11 17:18:54,835] User_03_My_account - Step 02: In put to email with value: Automation6157@gmail.com
+[INFO ] [2023-09-11 17:18:54,972] User_03_My_account - Step 02: In put to password with value: 123456
+[INFO ] [2023-09-11 17:18:55,083] User_03_My_account - Step 02: In put to confirm password with value: 123456
+[INFO ] [2023-09-11 17:18:55,170] User_03_My_account - Step 03: Click to Button Register
+[INFO ] [2023-09-11 17:18:56,545] User_03_My_account - Step 04: Click to login link
+[INFO ] [2023-09-11 17:18:57,088] User_03_My_account - Step 05: In put to email with value: Automation6157@gmail.com
+[INFO ] [2023-09-11 17:18:57,211] User_03_My_account - Step 06: In put to password with value: 123456
+[INFO ] [2023-09-11 17:18:57,302] User_03_My_account - Step 07: Click to Button Login
+[INFO ] [2023-09-11 17:18:58,100] User_03_My_account - Step 08: Verify login success
+[INFO ] [2023-09-11 17:18:58,187]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:03,246]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:03,307]  -------------------------- FAILED -------------------------- 
+[INFO ] [2023-09-11 17:19:07,890]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:07,950]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:08,572]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:12,497]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:23,339]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:23,789]  -------------------------- FAILED -------------------------- 
+[INFO ] [2023-09-11 17:19:23,852]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:23,910]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:23,972]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:24,035]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:24,096]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:24,158]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:24,208]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:24,249]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:24,317]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:24,358]  -------------------------- FAILED -------------------------- 
+[INFO ] [2023-09-11 17:19:24,420]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:24,482]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:24,544]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:24,607]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:24,669]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:24,720]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:24,768]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:24,812]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:24,876]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:24,936]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:25,247]  -------------------------- FAILED -------------------------- 
+[INFO ] [2023-09-11 17:19:26,227]  -------------------------- FAILED -------------------------- 
+[INFO ] [2023-09-11 17:19:27,945]  -------------------------- FAILED -------------------------- 
+[INFO ] [2023-09-11 17:19:29,156]  -------------------------- FAILED -------------------------- 
+[INFO ] [2023-09-11 17:19:29,214]  -------------------------- FAILED -------------------------- 
+[INFO ] [2023-09-11 17:19:29,264]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:29,324]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:29,384]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:29,448]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:29,508]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:29,570]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:29,615]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:29,661]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:29,728]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:29,787]  -------------------------- FAILED -------------------------- 
+[INFO ] [2023-09-11 17:19:29,850]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:29,911]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:29,974]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:30,047]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:30,097]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:30,138]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:30,186]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:30,249]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:19:30,312]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:20:27,707] Pre-condition - Step 01: Open browser
+[INFO ] [2023-09-11 17:20:36,708] Admin_01_Search_With_Product_Name: Click to Customers
+[INFO ] [2023-09-11 17:20:38,040] Admin_01_Search_With_Product_Name: Click to circle Customers
+[INFO ] [2023-09-11 17:20:40,036] Admin_01_Search_With_Product_Name: Click to add new
+[INFO ] [2023-09-11 17:20:42,203] Admin_01_Search_With_Product_Name: Input to email with: automationfc@gmail.com
+[INFO ] [2023-09-11 17:20:48,858] User_03_My_account - Step 01: Click to RegisterLink
+[INFO ] [2023-09-11 17:20:50,018] UUser_03_My_account - Step 02: In put to first name with value: Autonmation
+[INFO ] [2023-09-11 17:20:50,128] User_03_My_account - Step 02: In put to last name with value: FC
+[INFO ] [2023-09-11 17:20:50,222] User_03_My_account - Step 02: In put to email with value: Automation2476@gmail.com
+[INFO ] [2023-09-11 17:20:50,320] User_03_My_account - Step 02: In put to password with value: 123456
+[INFO ] [2023-09-11 17:20:50,415] User_03_My_account - Step 02: In put to confirm password with value: 123456
+[INFO ] [2023-09-11 17:20:50,508] User_03_My_account - Step 03: Click to Button Register
+[INFO ] [2023-09-11 17:20:51,397] User_03_My_account - Step 04: Click to login link
+[INFO ] [2023-09-11 17:20:52,457] User_03_My_account - Step 05: In put to email with value: Automation2476@gmail.com
+[INFO ] [2023-09-11 17:20:52,554] User_03_My_account - Step 06: In put to password with value: 123456
+[INFO ] [2023-09-11 17:20:52,652] User_03_My_account - Step 07: Click to Button Login
+[INFO ] [2023-09-11 17:20:53,443] User_03_My_account - Step 08: Verify login success
+[INFO ] [2023-09-11 17:20:53,542]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:20:54,025] User_07_Wishlist - Step 01: Click to add to cart with product title apple macbook
+[INFO ] [2023-09-11 17:20:55,342] User_07_Wishlist - Step 01: Click to add to wishlist 
+[INFO ] [2023-09-11 17:20:55,898]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:20:56,458]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:20:56,458] User_07_Wishlist - Step 01: Click share info link 
+[INFO ] [2023-09-11 17:20:56,893] User_07_Wishlist - Step 01: Click to checkbox add to cart 
+[INFO ] [2023-09-11 17:20:57,199] User_07_Wishlist - Step 02: Click to button add to cart 
+[INFO ] [2023-09-11 17:20:58,090] User_07_Wishlist - Step 03: Verify add product success
+[INFO ] [2023-09-11 17:20:58,183]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:20:59,713]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:21:00,215] User_07_Wishlist - Step 01: Click to add to cart with product title apple macbook
+[INFO ] [2023-09-11 17:21:04,264]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:21:04,326]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:21:04,389]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:21:05,142]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:21:13,002]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:21:14,031] Pre-condition - Step 01: Open browser
+[INFO ] [2023-09-11 17:21:19,583] User_01_Register - Step 01: Click to RegisterLink
+[INFO ] [2023-09-11 17:21:20,785] User_01_Register - Step 02: Click to Button Register
+[INFO ] [2023-09-11 17:21:21,104] User_01_Register - Step 03: Verify error message first name
+[INFO ] [2023-09-11 17:21:21,188]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:21:21,188] User_01_Register - Step 03: Verify error message last name
+[INFO ] [2023-09-11 17:21:21,246]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:21:21,246] User_01_Register - Step 03: Verify error message email
+[INFO ] [2023-09-11 17:21:21,291]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:21:21,292] User_01_Register - Step 03: Verify error message password
+[INFO ] [2023-09-11 17:21:21,339]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:21:21,339] User_01_Register - Step 03: Verify error message confirm password
+[INFO ] [2023-09-11 17:21:21,384]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:21:21,390] User_01_Register - Step 01: Click to RegisterLink
+[INFO ] [2023-09-11 17:21:22,418] User_01_Register - Step 02: In put to first name with value: Autonmation
+[INFO ] [2023-09-11 17:21:22,555] User_01_Register - Step 02: In put to last name with value: FC
+[INFO ] [2023-09-11 17:21:22,644] User_01_Register - Step 02: In put to email with value: Automation9966@gmai.com
+[INFO ] [2023-09-11 17:21:22,750] User_01_Register - Step 02: In put to password with value: 123456
+[INFO ] [2023-09-11 17:21:22,863] User_01_Register - Step 02: In put to confirm password with value: 123456
+[INFO ] [2023-09-11 17:21:22,973] User_01_Register - Step 03: Click to Button Register
+[INFO ] [2023-09-11 17:21:23,297] User_01_Register - Step 04: Verify error message invalid email
+[INFO ] [2023-09-11 17:21:23,383]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:21:23,392] User_01_Register - Step 01: Click to RegisterLink
+[INFO ] [2023-09-11 17:21:23,876] User_01_Register - Step 02: In put to first name with value: Autonmation
+[INFO ] [2023-09-11 17:21:23,996] User_01_Register - Step 02: In put to last name with value: FC
+[INFO ] [2023-09-11 17:21:24,089] User_01_Register - Step 02: In put to email with value: Automation9966@gmai.com
+[INFO ] [2023-09-11 17:21:24,186] User_01_Register - Step 02: In put to password with value: 123456
+[INFO ] [2023-09-11 17:21:24,273] User_01_Register - Step 02: In put to confirm password with value: 123456
+[INFO ] [2023-09-11 17:21:24,351] User_01_Register - Step 03: Click to Button Register
+[INFO ] [2023-09-11 17:21:25,187] User_01_Register - Step 04: Verify register success
+[INFO ] [2023-09-11 17:21:25,278]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:21:25,285] User_01_Register - Step 01: Click to RegisterLink
+[INFO ] [2023-09-11 17:21:55,367] User_01_Register - Step 01: Click to RegisterLink
+[INFO ] [2023-09-11 17:22:25,385] User_01_Register - Step 01: Click to RegisterLink
+[INFO ] [2023-09-11 17:23:01,603] User_03_My_account - Step 01: Click to RegisterLink
+[INFO ] [2023-09-11 17:23:03,134] UUser_03_My_account - Step 02: In put to first name with value: Autonmation
+[INFO ] [2023-09-11 17:23:03,243] User_03_My_account - Step 02: In put to last name with value: FC
+[INFO ] [2023-09-11 17:23:03,332] User_03_My_account - Step 02: In put to email with value: Automation1856@gmail.com
+[INFO ] [2023-09-11 17:23:03,431] User_03_My_account - Step 02: In put to password with value: 123456
+[INFO ] [2023-09-11 17:23:03,515] User_03_My_account - Step 02: In put to confirm password with value: 123456
+[INFO ] [2023-09-11 17:23:03,604] User_03_My_account - Step 03: Click to Button Register
+[INFO ] [2023-09-11 17:23:05,002] User_03_My_account - Step 04: Click to login link
+[INFO ] [2023-09-11 17:23:05,450] User_03_My_account - Step 05: In put to email with value: Automation1856@gmail.com
+[INFO ] [2023-09-11 17:23:05,578] User_03_My_account - Step 06: In put to password with value: 123456
+[INFO ] [2023-09-11 17:23:05,684] User_03_My_account - Step 07: Click to Button Login
+[INFO ] [2023-09-11 17:23:06,437] User_03_My_account - Step 08: Verify login success
+[INFO ] [2023-09-11 17:23:06,541]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:11,246]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:11,299]  -------------------------- FAILED -------------------------- 
+[INFO ] [2023-09-11 17:23:15,044]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:15,090]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:15,668]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:18,832]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:27,692]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:28,076]  -------------------------- FAILED -------------------------- 
+[INFO ] [2023-09-11 17:23:28,125]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:28,168]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:28,217]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:28,261]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:28,311]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:28,358]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:28,419]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:28,465]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:28,514]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:28,560]  -------------------------- FAILED -------------------------- 
+[INFO ] [2023-09-11 17:23:28,605]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:28,654]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:28,701]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:28,746]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:28,791]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:28,840]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:28,887]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:28,933]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:28,984]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:29,029]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:29,351]  -------------------------- FAILED -------------------------- 
+[INFO ] [2023-09-11 17:23:29,963]  -------------------------- FAILED -------------------------- 
+[INFO ] [2023-09-11 17:23:31,026]  -------------------------- FAILED -------------------------- 
+[INFO ] [2023-09-11 17:23:31,649]  -------------------------- FAILED -------------------------- 
+[INFO ] [2023-09-11 17:23:31,695]  -------------------------- FAILED -------------------------- 
+[INFO ] [2023-09-11 17:23:31,744]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:31,791]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:31,836]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:31,883]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:31,929]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:31,979]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:32,021]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:32,068]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:32,117]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:32,181]  -------------------------- FAILED -------------------------- 
+[INFO ] [2023-09-11 17:23:32,243]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:32,286]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:32,350]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:32,397]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:32,444]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:32,490]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:32,535]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:32,582]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:32,631]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:39,797] User_02_Login - Step 01: Click to RegisterLink
+[INFO ] [2023-09-11 17:23:40,348] User_02_Login - Step 02: In put to first name with value: Autonmation
+[INFO ] [2023-09-11 17:23:40,461] User_02_Login - Step 02: In put to last name with value: FC
+[INFO ] [2023-09-11 17:23:40,552] User_02_Login - Step 02: In put to email with value: Automation9441@gmail.com
+[INFO ] [2023-09-11 17:23:40,664] User_02_Login - Step 02: In put to password with value: 123456
+[INFO ] [2023-09-11 17:23:40,749] User_02_Login - Step 02: In put to confirm password with value: 123456
+[INFO ] [2023-09-11 17:23:40,836] User_02_Login - Step 03: Click to Button Register
+[INFO ] [2023-09-11 17:23:42,219] User_02_Login - Step 01: Click to login link
+[INFO ] [2023-09-11 17:23:42,535] User_02_Login - Step 02: Verify error message email
+[INFO ] [2023-09-11 17:23:42,622]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:23:48,678] User_03_My_account - Step 01: Click to RegisterLink
+[INFO ] [2023-09-11 17:23:49,797] UUser_03_My_account - Step 02: In put to first name with value: Autonmation
+[INFO ] [2023-09-11 17:23:49,898] User_03_My_account - Step 02: In put to last name with value: FC
+[INFO ] [2023-09-11 17:23:49,990] User_03_My_account - Step 02: In put to email with value: Automation9402@gmail.com
+[INFO ] [2023-09-11 17:23:50,091] User_03_My_account - Step 02: In put to password with value: 123456
+[INFO ] [2023-09-11 17:23:50,196] User_03_My_account - Step 02: In put to confirm password with value: 123456
+[INFO ] [2023-09-11 17:23:50,278] User_03_My_account - Step 03: Click to Button Register
+[INFO ] [2023-09-11 17:23:51,167] User_03_My_account - Step 04: Click to login link
+[INFO ] [2023-09-11 17:24:26,260] User_03_My_account - Step 01: Click to RegisterLink
+[INFO ] [2023-09-11 17:24:27,440] UUser_03_My_account - Step 02: In put to first name with value: Autonmation
+[INFO ] [2023-09-11 17:24:27,560] User_03_My_account - Step 02: In put to last name with value: FC
+[INFO ] [2023-09-11 17:24:27,667] User_03_My_account - Step 02: In put to email with value: Automation9136@gmail.com
+[INFO ] [2023-09-11 17:24:27,759] User_03_My_account - Step 02: In put to password with value: 123456
+[INFO ] [2023-09-11 17:24:27,848] User_03_My_account - Step 02: In put to confirm password with value: 123456
+[INFO ] [2023-09-11 17:24:27,933] User_03_My_account - Step 03: Click to Button Register
+[INFO ] [2023-09-11 17:24:29,626] User_03_My_account - Step 04: Click to login link
+[INFO ] [2023-09-11 17:24:30,156] User_03_My_account - Step 05: In put to email with value: Automation9136@gmail.com
+[INFO ] [2023-09-11 17:24:30,265] User_03_My_account - Step 06: In put to password with value: 123456
+[INFO ] [2023-09-11 17:24:30,369] User_03_My_account - Step 07: Click to Button Login
+[INFO ] [2023-09-11 17:24:31,155] User_03_My_account - Step 08: Verify login success
+[INFO ] [2023-09-11 17:24:31,274]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:24:31,853] User_04_Search - Step 01: Click to button search
+[INFO ] [2023-09-11 17:24:32,364] User_04_Search - Step 02:Verify error message less 3 characters
+[INFO ] [2023-09-11 17:24:32,442]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:24:32,446] User_04_Search - Step 01: Input to search with data not exist: Macbook Pro 2050
+[INFO ] [2023-09-11 17:24:32,569] User_04_Search - Step 02: Click to button search
+[INFO ] [2023-09-11 17:24:33,093] User_04_Search - Step 03: Verify products not found
+[INFO ] [2023-09-11 17:24:33,177]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:24:33,181] User_04_Search - Step 01: Input to search with data relative: Lenovo
+[INFO ] [2023-09-11 17:24:33,296] User_04_Search - Step 02: Click to button search
+[INFO ] [2023-09-11 17:24:33,811] User_04_Search - Step 03: Verify products Lenovo IdeaCentre 600 All-in-One PC isdisplay
+[INFO ] [2023-09-11 17:24:33,907]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:24:33,908] User_04_Search - Step 03: Verify products Lenovo Thinkpad X1 Carbon Laptop
+[INFO ] [2023-09-11 17:24:33,995]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:24:34,000] User_04_Search - Step 01: Input to search with data relative: Lenovo Thinkpad X1 Carbon Laptop
+[INFO ] [2023-09-11 17:24:34,160] User_04_Search - Step 02: Click to button search
+[INFO ] [2023-09-11 17:24:34,714] User_04_Search - Step 03: Verify products Lenovo Thinkpad X1 Carbon Laptop
+[INFO ] [2023-09-11 17:24:34,841]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:24:34,845] User_04_Search - Step 01: Input to search with data: Apple MacBook Pro
+[INFO ] [2023-09-11 17:24:34,979] User_04_Search - Step 02: Click to checkbox advanced search
+[INFO ] [2023-09-11 17:24:35,288] User_04_Search - Step 03: Select with label category
+[INFO ] [2023-09-11 17:24:35,613] User_04_Search - Step 04: Click to button search
+[INFO ] [2023-09-11 17:24:36,122] User_04_Search - Step 05: Verify products not found
+[INFO ] [2023-09-11 17:24:36,215]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:24:36,219] User_04_Search - Step 01: Input to search with data: Apple MacBook Pro
+[INFO ] [2023-09-11 17:24:36,343] User_04_Search - Step 02: Click to checkbox advanced search
+[INFO ] [2023-09-11 17:24:36,410] User_04_Search - Step 03: Select with label category
+[INFO ] [2023-09-11 17:24:36,506] User_04_Search - Step 04: Click to checkbox automatically search
+[INFO ] [2023-09-11 17:24:36,789] User_04_Search - Step 05: Click to button search
+[INFO ] [2023-09-11 17:24:37,346] User_04_Search - Step 06: Verify products Apple Macbook Pro 13-inch isdisplay
+[INFO ] [2023-09-11 17:24:37,429]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:24:37,435] User_04_Search - Step 01: Input to search with data: Apple MacBook Pro
+[INFO ] [2023-09-11 17:24:37,553] User_04_Search - Step 02: Click to checkbox advanced search
+[INFO ] [2023-09-11 17:24:37,592] User_04_Search - Step 03: Select with label category
+[INFO ] [2023-09-11 17:24:37,672] User_04_Search - Step 04: Click to checkbox automatically search
+[INFO ] [2023-09-11 17:24:37,719] User_04_Search - Step 05: Select with label manufacturer
+[INFO ] [2023-09-11 17:24:38,042] User_04_Search - Step 06: Click to button search
+[INFO ] [2023-09-11 17:24:38,711] User_04_Search - Step 07: Verify products not found
+[INFO ] [2023-09-11 17:24:38,793]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:24:38,797] User_04_Search - Step 01: Input to search with data: Apple MacBook Pro
+[INFO ] [2023-09-11 17:24:38,911] User_04_Search - Step 02: Click to checkbox advanced search
+[INFO ] [2023-09-11 17:24:38,977] User_04_Search - Step 03: Select with label category
+[INFO ] [2023-09-11 17:24:39,054] User_04_Search - Step 04: Click to checkbox automatically search
+[INFO ] [2023-09-11 17:24:39,103] User_04_Search - Step 05: Select with label manufacturer
+[INFO ] [2023-09-11 17:24:39,430] User_04_Search - Step 06: Click to button search
+[INFO ] [2023-09-11 17:24:39,971] User_04_Search - Step 07: Verify products Apple Macbook Pro 13-inch isdisplay
+[INFO ] [2023-09-11 17:24:40,045]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:24:46,557] User_03_My_account - Step 01: Click to RegisterLink
+[INFO ] [2023-09-11 17:24:48,974] UUser_03_My_account - Step 02: In put to first name with value: Autonmation
+[INFO ] [2023-09-11 17:24:49,095] User_03_My_account - Step 02: In put to last name with value: FC
+[INFO ] [2023-09-11 17:24:49,194] User_03_My_account - Step 02: In put to email with value: Automation5241@gmail.com
+[INFO ] [2023-09-11 17:24:49,313] User_03_My_account - Step 02: In put to password with value: 123456
+[INFO ] [2023-09-11 17:24:49,406] User_03_My_account - Step 02: In put to confirm password with value: 123456
+[INFO ] [2023-09-11 17:24:49,498] User_03_My_account - Step 03: Click to Button Register
+[INFO ] [2023-09-11 17:24:50,837] User_03_My_account - Step 04: Click to login link
+[INFO ] [2023-09-11 17:24:51,346] User_03_My_account - Step 05: In put to email with value: Automation5241@gmail.com
+[INFO ] [2023-09-11 17:24:51,482] User_03_My_account - Step 06: In put to password with value: 123456
+[INFO ] [2023-09-11 17:24:51,573] User_03_My_account - Step 07: Click to Button Login
+[INFO ] [2023-09-11 17:24:52,328] User_03_My_account - Step 08: Verify login success
+[INFO ] [2023-09-11 17:24:52,427]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:24:52,427] User_03_My_account - Step 08: Open sort products
+[INFO ] [2023-09-11 17:24:53,013] User_05_Products_Sort - Step 01: open note books
+[INFO ] [2023-09-11 17:24:54,577] User_05_Products_Sort - Step 02: Select to type sort 
+[INFO ] [2023-09-11 17:24:55,899] User_05_Products_Sort - Step 03: Verify sort from A to Z
+[INFO ] [2023-09-11 17:24:56,002]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:24:56,007] User_05_Products_Sort - Step 01: Select to type sort 
+[INFO ] [2023-09-11 17:24:57,332] User_05_Products_Sort - Step 02: Verify sort from Z to A
+[INFO ] [2023-09-11 17:24:57,426]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:24:57,430] User_05_Products_Sort - Step 01: Select to type sort 
+[INFO ] [2023-09-11 17:24:58,768] User_05_Products_Sort - Step 02: Verify sort from Low to High
+[INFO ] [2023-09-11 17:24:58,826]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:24:58,829] User_05_Products_Sort - Step 01: Select to type sort 
+[INFO ] [2023-09-11 17:25:00,150] User_05_Products_Sort - Step 02: Verify sort from High to Low
+[INFO ] [2023-09-11 17:25:00,216]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:25:00,219] User_05_Products_Sort - Step 01: Select to type display 3 products 
+[INFO ] [2023-09-11 17:25:01,548] User_05_Products_Sort - Step 02: Verify display 3 products 
+[INFO ] [2023-09-11 17:25:01,644]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:25:01,644] User_05_Products_Sort - Step 02: Verify next page icon isdisplay
+[INFO ] [2023-09-11 17:25:01,714]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:25:01,714] User_05_Products_Sort - Step 03: Click to icon next page
+[INFO ] [2023-09-11 17:25:02,006] User_05_Products_Sort - Step 02: Verify previous page icon isdisplay
+[INFO ] [2023-09-11 17:25:02,188]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:25:02,193] User_05_Products_Sort - Step 01: Select to type display 6 products 
+[INFO ] [2023-09-11 17:25:03,493] User_05_Products_Sort - Step 02: Verify next page icon undisplay
+[INFO ] [2023-09-11 17:25:08,551]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:25:08,561] User_05_Products_Sort - Step 01: Select to type display 9 products 
+[INFO ] [2023-09-11 17:25:09,919] User_05_Products_Sort - Step 02: Verify next page icon undisplay
+[INFO ] [2023-09-11 17:25:14,980]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:47:43,442] Pre-condition - Step 01: Open browser
+[INFO ] [2023-09-11 17:47:52,842] Admin_01_Search_With_Product_Name: Click to Customers
+[INFO ] [2023-09-11 17:47:54,166] Admin_01_Search_With_Product_Name: Click to circle Customers
+[INFO ] [2023-09-11 17:47:56,080] Admin_01_Search_With_Product_Name: Click to add new
+[INFO ] [2023-09-11 17:47:58,575] Admin_01_Search_With_Product_Name: Input to email with: automationfc@gmail.com
+[INFO ] [2023-09-11 17:47:59,963] Pre-condition - Step 01: Open browser
+[INFO ] [2023-09-11 17:49:08,899] Pre-condition - Step 01: Open browser
+[INFO ] [2023-09-11 17:49:17,522] Admin_01_Search_With_Product_Name: Click to Catalog
+[INFO ] [2023-09-11 17:49:18,823] Admin_01_Search_With_Product_Name: Click to Products
+[INFO ] [2023-09-11 17:49:21,974] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-11 17:49:22,182] Admin_01_Search_With_Product_Name: Click button search product
+[INFO ] [2023-09-11 17:49:22,553] Admin_01_Search_With_Product_Name: Get size products
+[INFO ] [2023-09-11 17:49:22,656]  -------------------------- FAILED -------------------------- 
+[INFO ] [2023-09-11 17:49:22,657] Admin_01_Search_With_Product_Name: Get text product name 
+[INFO ] [2023-09-11 17:49:22,702]  -------------------------- FAILED -------------------------- 
+[INFO ] [2023-09-11 17:49:22,703] Admin_01_Search_With_Product_Name: Get text price product 
+[INFO ] [2023-09-11 17:49:22,751]  -------------------------- FAILED -------------------------- 
+[INFO ] [2023-09-11 17:49:22,831] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-11 17:49:23,044] Admin_01_Search_With_Product_Name: Select category with computers
+[INFO ] [2023-09-11 17:49:23,366] Admin_01_Search_With_Product_Name: Click button search product
+[INFO ] [2023-09-11 17:49:23,702] Admin_01_Search_With_Product_Name: Verify search no data
+[INFO ] [2023-09-11 17:49:24,302]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:49:24,308] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-11 17:49:24,519] Admin_01_Search_With_Product_Name: Select category with computers
+[INFO ] [2023-09-11 17:49:24,903] Admin_01_Search_With_Product_Name: Click button search product
+[INFO ] [2023-09-11 17:49:25,246]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:49:25,246] Admin_01_Search_With_Product_Name: Get text product name 
+[INFO ] [2023-09-11 17:49:25,410]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:49:25,410] Admin_01_Search_With_Product_Name: Get text price product 
+[INFO ] [2023-09-11 17:49:25,454]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:49:25,460] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-11 17:49:25,634] Admin_01_Search_With_Product_Name: Select category with computers - desktops
+[INFO ] [2023-09-11 17:49:26,278] Admin_01_Search_With_Product_Name: Click button search product
+[INFO ] [2023-09-11 17:49:26,667]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:49:26,667] Admin_01_Search_With_Product_Name: Get text product name 
+[INFO ] [2023-09-11 17:49:27,320]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:49:27,320] Admin_01_Search_With_Product_Name: Get text price product 
+[INFO ] [2023-09-11 17:49:27,380]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:49:27,386] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-11 17:49:27,583] Admin_01_Search_With_Product_Name: Select category with computers - desktops
+[INFO ] [2023-09-11 17:49:27,889] Admin_01_Search_With_Product_Name: Unselect search by checkbox
+[INFO ] [2023-09-11 17:49:27,990] Admin_01_Search_With_Product_Name: Select manufacturer with Apple
+[INFO ] [2023-09-11 17:49:28,315] Admin_01_Search_With_Product_Name: Click button search product
+[INFO ] [2023-09-11 17:49:28,660] Admin_01_Search_With_Product_Name: Verify search no data
+[INFO ] [2023-09-11 17:49:29,205]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:49:29,211] Admin_01_Search_With_Product_Name: Click to Catalog
+[INFO ] [2023-09-11 17:49:30,496] Admin_01_Search_With_Product_Name: Click to Products
+[INFO ] [2023-09-11 17:50:00,528] Admin_01_Search_With_Product_Name: Click to Customers
+[INFO ] [2023-09-11 17:50:01,847] Admin_01_Search_With_Product_Name: Click to circle Customers
+[INFO ] [2023-09-11 17:50:04,070] Admin_01_Search_With_Product_Name: Click to add new
+[INFO ] [2023-09-11 17:50:06,896] Admin_01_Search_With_Product_Name: Input to email with: automationfc@gmail.com
+[INFO ] [2023-09-11 17:50:09,307] Pre-condition - Step 01: Open browser
+[INFO ] [2023-09-11 17:52:35,285] Pre-condition - Step 01: Open browser
+[INFO ] [2023-09-11 17:52:44,094] Admin_01_Search_With_Product_Name: Click to Catalog
+[INFO ] [2023-09-11 17:52:45,387] Admin_01_Search_With_Product_Name: Click to Products
+[INFO ] [2023-09-11 17:52:47,496] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-11 17:52:47,711] Admin_01_Search_With_Product_Name: Click button search product
+[INFO ] [2023-09-11 17:52:48,023] Admin_01_Search_With_Product_Name: Get size products
+[INFO ] [2023-09-11 17:52:48,094]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:52:48,095] Admin_01_Search_With_Product_Name: Get text product name 
+[INFO ] [2023-09-11 17:52:48,165]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:52:48,165] Admin_01_Search_With_Product_Name: Get text price product 
+[INFO ] [2023-09-11 17:52:48,210]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:52:48,293] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-11 17:52:48,496] Admin_01_Search_With_Product_Name: Select category with computers
+[INFO ] [2023-09-11 17:52:48,846] Admin_01_Search_With_Product_Name: Click button search product
+[INFO ] [2023-09-11 17:52:49,175] Admin_01_Search_With_Product_Name: Verify search no data
+[INFO ] [2023-09-11 17:52:49,351]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:52:49,358] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-11 17:52:49,555] Admin_01_Search_With_Product_Name: Select category with computers
+[INFO ] [2023-09-11 17:52:49,915] Admin_01_Search_With_Product_Name: Click button search product
+[INFO ] [2023-09-11 17:52:50,314]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:52:50,314] Admin_01_Search_With_Product_Name: Get text product name 
+[INFO ] [2023-09-11 17:52:50,357]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:52:50,357] Admin_01_Search_With_Product_Name: Get text price product 
+[INFO ] [2023-09-11 17:52:50,404]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:52:50,409] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-11 17:52:50,566] Admin_01_Search_With_Product_Name: Select category with computers - desktops
+[INFO ] [2023-09-11 17:52:51,205] Admin_01_Search_With_Product_Name: Click button search product
+[INFO ] [2023-09-11 17:52:51,585]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:52:51,585] Admin_01_Search_With_Product_Name: Get text product name 
+[INFO ] [2023-09-11 17:52:51,635]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:52:51,635] Admin_01_Search_With_Product_Name: Get text price product 
+[INFO ] [2023-09-11 17:52:51,685]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:52:51,694] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-11 17:52:51,864] Admin_01_Search_With_Product_Name: Select category with computers - desktops
+[INFO ] [2023-09-11 17:52:52,173] Admin_01_Search_With_Product_Name: Unselect search by checkbox
+[INFO ] [2023-09-11 17:52:52,315] Admin_01_Search_With_Product_Name: Select manufacturer with Apple
+[INFO ] [2023-09-11 17:52:52,649] Admin_01_Search_With_Product_Name: Click button search product
+[INFO ] [2023-09-11 17:52:52,965] Admin_01_Search_With_Product_Name: Verify search no data
+[INFO ] [2023-09-11 17:52:53,116]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:52:53,122] Admin_01_Search_With_Product_Name: Click to Catalog
+[INFO ] [2023-09-11 17:52:54,438] Admin_01_Search_With_Product_Name: Click to Products
+[INFO ] [2023-09-11 17:53:24,626] Admin_01_Search_With_Product_Name: Click to Customers
+[INFO ] [2023-09-11 17:53:25,956] Admin_01_Search_With_Product_Name: Click to circle Customers
+[INFO ] [2023-09-11 17:53:28,250] Admin_01_Search_With_Product_Name: Click to add new
+[INFO ] [2023-09-11 17:53:30,400] Admin_01_Search_With_Product_Name: Input to email with: automationfc@gmail.com
+[INFO ] [2023-09-11 17:53:33,037] Pre-condition - Step 01: Open browser
+[INFO ] [2023-09-11 17:53:52,732] Pre-condition - Step 01: Open browser
+[INFO ] [2023-09-11 17:54:03,428] Admin_01_Search_With_Product_Name: Click to Catalog
+[INFO ] [2023-09-11 17:54:04,735] Admin_01_Search_With_Product_Name: Click to Products
+[INFO ] [2023-09-11 17:54:06,827] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-11 17:54:07,042] Admin_01_Search_With_Product_Name: Click button search product
+[INFO ] [2023-09-11 17:54:07,356] Admin_01_Search_With_Product_Name: Get size products
+[INFO ] [2023-09-11 17:54:07,469]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:54:07,469] Admin_01_Search_With_Product_Name: Get text product name 
+[INFO ] [2023-09-11 17:54:07,522]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:54:07,522] Admin_01_Search_With_Product_Name: Get text price product 
+[INFO ] [2023-09-11 17:54:07,566]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:54:07,639] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-11 17:54:07,830] Admin_01_Search_With_Product_Name: Select category with computers
+[INFO ] [2023-09-11 17:54:08,140] Admin_01_Search_With_Product_Name: Click button search product
+[INFO ] [2023-09-11 17:54:08,469] Admin_01_Search_With_Product_Name: Verify search no data
+[INFO ] [2023-09-11 17:54:08,643]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:54:08,652] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-11 17:54:08,840] Admin_01_Search_With_Product_Name: Select category with computers
+[INFO ] [2023-09-11 17:54:09,222] Admin_01_Search_With_Product_Name: Click button search product
+[INFO ] [2023-09-11 17:54:10,202]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:54:10,203] Admin_01_Search_With_Product_Name: Get text product name 
+[INFO ] [2023-09-11 17:54:10,257]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:54:10,257] Admin_01_Search_With_Product_Name: Get text price product 
+[INFO ] [2023-09-11 17:54:10,303]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:54:10,309] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-11 17:54:10,476] Admin_01_Search_With_Product_Name: Select category with computers - desktops
+[INFO ] [2023-09-11 17:54:11,147] Admin_01_Search_With_Product_Name: Click button search product
+[INFO ] [2023-09-11 17:54:11,586]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:54:11,587] Admin_01_Search_With_Product_Name: Get text product name 
+[INFO ] [2023-09-11 17:54:11,655]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:54:11,655] Admin_01_Search_With_Product_Name: Get text price product 
+[INFO ] [2023-09-11 17:54:11,717]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:54:11,726] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-11 17:54:11,914] Admin_01_Search_With_Product_Name: Select category with computers - desktops
+[INFO ] [2023-09-11 17:54:12,222] Admin_01_Search_With_Product_Name: Unselect search by checkbox
+[INFO ] [2023-09-11 17:54:12,323] Admin_01_Search_With_Product_Name: Select manufacturer with Apple
+[INFO ] [2023-09-11 17:54:12,630] Admin_01_Search_With_Product_Name: Click button search product
+[INFO ] [2023-09-11 17:54:12,958] Admin_01_Search_With_Product_Name: Verify search no data
+[INFO ] [2023-09-11 17:54:13,104]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 17:54:13,110] Admin_01_Search_With_Product_Name: Click to Catalog
+[INFO ] [2023-09-11 17:54:14,425] Admin_01_Search_With_Product_Name: Click to Products
+[INFO ] [2023-09-11 17:54:44,860] Admin_01_Search_With_Product_Name: Click to Customers
+[INFO ] [2023-09-11 17:54:46,178] Admin_01_Search_With_Product_Name: Click to circle Customers
+[INFO ] [2023-09-11 17:54:48,205] Admin_01_Search_With_Product_Name: Click to add new
+[INFO ] [2023-09-11 17:54:50,603] Admin_01_Search_With_Product_Name: Input to email with: automationfc@gmail.com
+[INFO ] [2023-09-11 17:54:53,439] Pre-condition - Step 01: Open browser
+[INFO ] [2023-09-11 18:05:53,031] Pre-condition - Step 01: Open browser
+[INFO ] [2023-09-11 18:06:03,682] Admin_01_Search_With_Product_Name: Click to Catalog
+[INFO ] [2023-09-11 18:06:04,994] Admin_01_Search_With_Product_Name: Click to Products
+[INFO ] [2023-09-11 18:06:07,135] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-11 18:06:07,316] Admin_01_Search_With_Product_Name: Click button search product
+[INFO ] [2023-09-11 18:06:07,631] Admin_01_Search_With_Product_Name: Get size products
+[INFO ] [2023-09-11 18:06:07,737]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:06:07,737] Admin_01_Search_With_Product_Name: Get text product name 
+[INFO ] [2023-09-11 18:06:07,794]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:06:07,794] Admin_01_Search_With_Product_Name: Get text price product 
+[INFO ] [2023-09-11 18:06:07,840]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:06:07,907] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-11 18:06:08,087] Admin_01_Search_With_Product_Name: Select category with computers
+[INFO ] [2023-09-11 18:06:08,410] Admin_01_Search_With_Product_Name: Click button search product
+[INFO ] [2023-09-11 18:06:08,763] Admin_01_Search_With_Product_Name: Verify search no data
+[INFO ] [2023-09-11 18:06:08,928]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:06:08,934] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-11 18:06:09,116] Admin_01_Search_With_Product_Name: Select category with computers
+[INFO ] [2023-09-11 18:06:09,479] Admin_01_Search_With_Product_Name: Click button search product
+[INFO ] [2023-09-11 18:06:09,848]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:06:09,848] Admin_01_Search_With_Product_Name: Get text product name 
+[INFO ] [2023-09-11 18:06:09,910]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:06:09,910] Admin_01_Search_With_Product_Name: Get text price product 
+[INFO ] [2023-09-11 18:06:09,957]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:06:09,963] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-11 18:06:10,147] Admin_01_Search_With_Product_Name: Select category with computers - desktops
+[INFO ] [2023-09-11 18:06:10,778] Admin_01_Search_With_Product_Name: Click button search product
+[INFO ] [2023-09-11 18:06:11,175]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:06:11,175] Admin_01_Search_With_Product_Name: Get text product name 
+[INFO ] [2023-09-11 18:06:11,226]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:06:11,227] Admin_01_Search_With_Product_Name: Get text price product 
+[INFO ] [2023-09-11 18:06:11,272]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:06:11,276] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-11 18:06:11,456] Admin_01_Search_With_Product_Name: Select category with computers - desktops
+[INFO ] [2023-09-11 18:06:11,765] Admin_01_Search_With_Product_Name: Unselect search by checkbox
+[INFO ] [2023-09-11 18:06:11,862] Admin_01_Search_With_Product_Name: Select manufacturer with Apple
+[INFO ] [2023-09-11 18:06:12,171] Admin_01_Search_With_Product_Name: Click button search product
+[INFO ] [2023-09-11 18:06:12,475] Admin_01_Search_With_Product_Name: Verify search no data
+[INFO ] [2023-09-11 18:06:12,621]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:06:12,626] Admin_01_Search_With_Product_Name: Click to Catalog
+[INFO ] [2023-09-11 18:06:13,904] Admin_01_Search_With_Product_Name: Click to Products
+[INFO ] [2023-09-11 18:06:44,406] Admin_01_Search_With_Product_Name: Click to Customers
+[INFO ] [2023-09-11 18:06:45,731] Admin_01_Search_With_Product_Name: Click to circle Customers
+[INFO ] [2023-09-11 18:06:48,026] Admin_01_Search_With_Product_Name: Click to add new
+[INFO ] [2023-09-11 18:06:50,342] Admin_01_Search_With_Product_Name: Input to email with: automationfc@gmail.com
+[INFO ] [2023-09-11 18:11:47,422] Pre-condition - Step 01: Open browser
+[INFO ] [2023-09-11 18:11:58,178] Admin_01_Search_With_Product_Name: Click to Catalog
+[INFO ] [2023-09-11 18:11:59,496] Admin_01_Search_With_Product_Name: Click to Products
+[INFO ] [2023-09-11 18:12:01,458] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-11 18:12:01,625] Admin_01_Search_With_Product_Name: Click button search product
+[INFO ] [2023-09-11 18:12:01,955] Admin_01_Search_With_Product_Name: Get size products
+[INFO ] [2023-09-11 18:12:02,047]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:12:02,048] Admin_01_Search_With_Product_Name: Get text product name 
+[INFO ] [2023-09-11 18:12:02,107]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:12:02,107] Admin_01_Search_With_Product_Name: Get text price product 
+[INFO ] [2023-09-11 18:12:02,152]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:12:02,231] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-11 18:12:02,418] Admin_01_Search_With_Product_Name: Select category with computers
+[INFO ] [2023-09-11 18:12:02,740] Admin_01_Search_With_Product_Name: Click button search product
+[INFO ] [2023-09-11 18:12:03,078] Admin_01_Search_With_Product_Name: Verify search no data
+[INFO ] [2023-09-11 18:12:03,224]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:12:03,232] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-11 18:12:03,405] Admin_01_Search_With_Product_Name: Select category with computers
+[INFO ] [2023-09-11 18:12:03,785] Admin_01_Search_With_Product_Name: Click button search product
+[INFO ] [2023-09-11 18:12:04,154]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:12:04,154] Admin_01_Search_With_Product_Name: Get text product name 
+[INFO ] [2023-09-11 18:12:04,220]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:12:04,220] Admin_01_Search_With_Product_Name: Get text price product 
+[INFO ] [2023-09-11 18:12:04,266]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:12:04,271] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-11 18:12:04,435] Admin_01_Search_With_Product_Name: Select category with computers - desktops
+[INFO ] [2023-09-11 18:12:05,072] Admin_01_Search_With_Product_Name: Click button search product
+[INFO ] [2023-09-11 18:12:05,451]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:12:05,451] Admin_01_Search_With_Product_Name: Get text product name 
+[INFO ] [2023-09-11 18:12:05,501]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:12:05,501] Admin_01_Search_With_Product_Name: Get text price product 
+[INFO ] [2023-09-11 18:12:05,542]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:12:05,547] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-11 18:12:05,724] Admin_01_Search_With_Product_Name: Select category with computers - desktops
+[INFO ] [2023-09-11 18:12:06,038] Admin_01_Search_With_Product_Name: Unselect search by checkbox
+[INFO ] [2023-09-11 18:12:06,140] Admin_01_Search_With_Product_Name: Select manufacturer with Apple
+[INFO ] [2023-09-11 18:12:06,463] Admin_01_Search_With_Product_Name: Click button search product
+[INFO ] [2023-09-11 18:12:06,829] Admin_01_Search_With_Product_Name: Verify search no data
+[INFO ] [2023-09-11 18:12:06,978]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:12:06,984] Admin_01_Search_With_Product_Name: Click to Catalog
+[INFO ] [2023-09-11 18:12:08,290] Admin_01_Search_With_Product_Name: Click to Products
+[INFO ] [2023-09-11 18:12:38,422] Admin_01_Search_With_Product_Name: Click to Customers
+[INFO ] [2023-09-11 18:12:39,818] Admin_01_Search_With_Product_Name: Click to circle Customers
+[INFO ] [2023-09-11 18:12:42,137] Admin_01_Search_With_Product_Name: Click to add new
+[INFO ] [2023-09-11 18:12:44,228] Admin_01_Search_With_Product_Name: Input to email with: automationfc@gmail.com

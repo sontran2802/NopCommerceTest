@@ -1,33 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[[INFO ] [2023-09-08 19:01:47,426] Pre-condition - Step 01: Open browser
+      <![CDATA[[INFO ] [2023-09-11 18:11:47,422] Pre-condition - Step 01: Open browser
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-09-08 19:01:56,948] Admin_01_Search_With_Product_Name: Click to Customers
+      <![CDATA[[INFO ] [2023-09-11 18:11:58,178] Admin_01_Search_With_Product_Name: Click to Catalog
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-09-08 19:01:58,339] Admin_01_Search_With_Product_Name: Click to circle Customers
+      <![CDATA[[INFO ] [2023-09-11 18:11:59,496] Admin_01_Search_With_Product_Name: Click to Products
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-09-08 19:02:00,222] Admin_01_Search_With_Product_Name: Click to add new
+      <![CDATA[[INFO ] [2023-09-11 18:12:01,458] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-09-08 19:02:02,557] Admin_01_Search_With_Product_Name: Input to email with: automationfc@gmail.com
+      <![CDATA[[INFO ] [2023-09-11 18:12:01,625] Admin_01_Search_With_Product_Name: Click button search product
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:01,955] Admin_01_Search_With_Product_Name: Get size products
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:02,047]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:02,048] Admin_01_Search_With_Product_Name: Get text product name 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:02,107]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:02,107] Admin_01_Search_With_Product_Name: Get text price product 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:02,152]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:02,231] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:02,418] Admin_01_Search_With_Product_Name: Select category with computers
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:02,740] Admin_01_Search_With_Product_Name: Click button search product
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:03,078] Admin_01_Search_With_Product_Name: Verify search no data
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:03,224]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:03,232] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:03,405] Admin_01_Search_With_Product_Name: Select category with computers
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:03,785] Admin_01_Search_With_Product_Name: Click button search product
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:04,154]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:04,154] Admin_01_Search_With_Product_Name: Get text product name 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:04,220]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:04,220] Admin_01_Search_With_Product_Name: Get text price product 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:04,266]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:04,271] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:04,435] Admin_01_Search_With_Product_Name: Select category with computers - desktops
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:05,072] Admin_01_Search_With_Product_Name: Click button search product
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:05,451]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:05,451] Admin_01_Search_With_Product_Name: Get text product name 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:05,501]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:05,501] Admin_01_Search_With_Product_Name: Get text price product 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:05,542]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:05,547] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:05,724] Admin_01_Search_With_Product_Name: Select category with computers - desktops
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:06,038] Admin_01_Search_With_Product_Name: Unselect search by checkbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:06,140] Admin_01_Search_With_Product_Name: Select manufacturer with Apple
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:06,463] Admin_01_Search_With_Product_Name: Click button search product
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:06,829] Admin_01_Search_With_Product_Name: Verify search no data
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:06,978]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:06,984] Admin_01_Search_With_Product_Name: Click to Catalog
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:08,290] Admin_01_Search_With_Product_Name: Click to Products
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:38,422] Admin_01_Search_With_Product_Name: Click to Customers
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:39,818] Admin_01_Search_With_Product_Name: Click to circle Customers
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:42,137] Admin_01_Search_With_Product_Name: Click to add new
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-09-11 18:12:44,228] Admin_01_Search_With_Product_Name: Input to email with: automationfc@gmail.com
 <br>]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-09-08T12:01:47Z" name="Suite" finished-at="2023-09-08T12:02:03Z" duration-ms="15616">
+  <suite started-at="2023-09-11T11:11:47Z" name="Suite" finished-at="2023-09-11T11:12:46Z" duration-ms="59330">
     <groups>
     </groups>
-    <test started-at="2023-09-08T12:01:47Z" name="Run on Firefox" finished-at="2023-09-08T12:02:03Z" duration-ms="15616">
+    <test started-at="2023-09-11T11:11:47Z" name="Run on Firefox" finished-at="2023-09-11T11:12:46Z" duration-ms="59330">
       <class name="com.nopcommerce.user.Admin_01_Search_Products">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.nopcommerce.user.Admin_01_Search_Products@5a9f4771]" started-at="2023-09-08T12:01:47Z" name="beforeClass" finished-at="2023-09-08T12:01:56Z" duration-ms="9469" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.nopcommerce.user.Admin_01_Search_Products@7d898981]" started-at="2023-09-11T11:11:47Z" name="beforeClass" finished-at="2023-09-11T11:11:58Z" duration-ms="10673" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,31 +197,268 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2023-09-08 19:01:47,426] Pre-condition - Step 01: Open browser
+              <![CDATA[[INFO ] [2023-09-11 18:11:47,422] Pre-condition - Step 01: Open browser
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="Admin_07_Create_New_Customer()[pri:0, instance:com.nopcommerce.user.Admin_01_Search_Products@5a9f4771]" started-at="2023-09-08T12:01:56Z" name="Admin_07_Create_New_Customer" finished-at="2023-09-08T12:02:02Z" duration-ms="6021" status="PASS">
+        <test-method signature="Admin_01_Search_With_Product_Name()[pri:0, instance:com.nopcommerce.user.Admin_01_Search_Products@7d898981]" started-at="2023-09-11T11:11:58Z" name="Admin_01_Search_With_Product_Name" finished-at="2023-09-11T11:12:02Z" duration-ms="4047" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2023-09-08 19:01:56,948] Admin_01_Search_With_Product_Name: Click to Customers
+              <![CDATA[[INFO ] [2023-09-11 18:11:58,178] Admin_01_Search_With_Product_Name: Click to Catalog
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2023-09-08 19:01:58,339] Admin_01_Search_With_Product_Name: Click to circle Customers
+              <![CDATA[[INFO ] [2023-09-11 18:11:59,496] Admin_01_Search_With_Product_Name: Click to Products
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2023-09-08 19:02:00,222] Admin_01_Search_With_Product_Name: Click to add new
+              <![CDATA[[INFO ] [2023-09-11 18:12:01,458] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2023-09-08 19:02:02,557] Admin_01_Search_With_Product_Name: Input to email with: automationfc@gmail.com
+              <![CDATA[[INFO ] [2023-09-11 18:12:01,625] Admin_01_Search_With_Product_Name: Click button search product
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:01,955] Admin_01_Search_With_Product_Name: Get size products
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:02,047]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:02,048] Admin_01_Search_With_Product_Name: Get text product name 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:02,107]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:02,107] Admin_01_Search_With_Product_Name: Get text price product 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:02,152]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Admin_01_Search_With_Product_Name -->
+        <test-method signature="Admin_02_Search_With_Product_Name_Catefory()[pri:0, instance:com.nopcommerce.user.Admin_01_Search_Products@7d898981]" started-at="2023-09-11T11:12:02Z" name="Admin_02_Search_With_Product_Name_Catefory" finished-at="2023-09-11T11:12:03Z" duration-ms="997" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:02,231] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:02,418] Admin_01_Search_With_Product_Name: Select category with computers
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:02,740] Admin_01_Search_With_Product_Name: Click button search product
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:03,078] Admin_01_Search_With_Product_Name: Verify search no data
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:03,224]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Admin_02_Search_With_Product_Name_Catefory -->
+        <test-method signature="Admin_03_Search_With_Product_Name_Catefory_Checked()[pri:0, instance:com.nopcommerce.user.Admin_01_Search_Products@7d898981]" started-at="2023-09-11T11:12:03Z" name="Admin_03_Search_With_Product_Name_Catefory_Checked" finished-at="2023-09-11T11:12:04Z" duration-ms="1037" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:03,232] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:03,405] Admin_01_Search_With_Product_Name: Select category with computers
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:03,785] Admin_01_Search_With_Product_Name: Click button search product
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:04,154]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:04,154] Admin_01_Search_With_Product_Name: Get text product name 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:04,220]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:04,220] Admin_01_Search_With_Product_Name: Get text price product 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:04,266]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Admin_03_Search_With_Product_Name_Catefory_Checked -->
+        <test-method signature="Admin_04_Search_With_Product_Name_Child_Catefory()[pri:0, instance:com.nopcommerce.user.Admin_01_Search_Products@7d898981]" started-at="2023-09-11T11:12:04Z" name="Admin_04_Search_With_Product_Name_Child_Catefory" finished-at="2023-09-11T11:12:05Z" duration-ms="1274" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:04,271] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:04,435] Admin_01_Search_With_Product_Name: Select category with computers - desktops
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:05,072] Admin_01_Search_With_Product_Name: Click button search product
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:05,451]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:05,451] Admin_01_Search_With_Product_Name: Get text product name 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:05,501]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:05,501] Admin_01_Search_With_Product_Name: Get text price product 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:05,542]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Admin_04_Search_With_Product_Name_Child_Catefory -->
+        <test-method signature="Admin_05_Search_With_Product_Name_ManuFacTurer()[pri:0, instance:com.nopcommerce.user.Admin_01_Search_Products@7d898981]" started-at="2023-09-11T11:12:05Z" name="Admin_05_Search_With_Product_Name_ManuFacTurer" finished-at="2023-09-11T11:12:06Z" duration-ms="1435" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:05,547] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:05,724] Admin_01_Search_With_Product_Name: Select category with computers - desktops
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:06,038] Admin_01_Search_With_Product_Name: Unselect search by checkbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:06,140] Admin_01_Search_With_Product_Name: Select manufacturer with Apple
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:06,463] Admin_01_Search_With_Product_Name: Click button search product
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:06,829] Admin_01_Search_With_Product_Name: Verify search no data
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:06,978]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Admin_05_Search_With_Product_Name_ManuFacTurer -->
+        <test-method signature="Admin_06_Search_With_Product_Go_Directly()[pri:0, instance:com.nopcommerce.user.Admin_01_Search_Products@7d898981]" started-at="2023-09-11T11:12:06Z" name="Admin_06_Search_With_Product_Go_Directly" finished-at="2023-09-11T11:12:38Z" duration-ms="31420" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //p[contains(text(),' Products')]/parent::a/i (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-M8CJ0LM', ip: '172.17.52.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14536, moz:profile: C:\Users\ths28\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: efc3db14-0aa8-44c8-b023-7fbcd38cdba8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //p[contains(text(),' Products')]/parent::a/i (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-M8CJ0LM', ip: '172.17.52.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14536, moz:profile: C:\Users\ths28\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: efc3db14-0aa8-44c8-b023-7fbcd38cdba8
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at commons.BasePage.waitForElementVisible(BasePage.java:445)
+at pageObjects.nopCommerce.admin.AdminDashBoardPageObject.clickToSidebarBylabel(AdminDashBoardPageObject.java:21)
+at com.nopcommerce.user.Admin_01_Search_Products.Admin_06_Search_With_Product_Go_Directly(Admin_01_Search_Products.java:143)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:06,984] Admin_01_Search_With_Product_Name: Click to Catalog
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:08,290] Admin_01_Search_With_Product_Name: Click to Products
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Admin_06_Search_With_Product_Go_Directly -->
+        <test-method signature="Admin_07_Create_New_Customer()[pri:0, instance:com.nopcommerce.user.Admin_01_Search_Products@7d898981]" started-at="2023-09-11T11:12:38Z" name="Admin_07_Create_New_Customer" finished-at="2023-09-11T11:12:44Z" duration-ms="6170" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:38,422] Admin_01_Search_With_Product_Name: Click to Customers
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:39,818] Admin_01_Search_With_Product_Name: Click to circle Customers
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:42,137] Admin_01_Search_With_Product_Name: Click to add new
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-09-11 18:12:44,228] Admin_01_Search_With_Product_Name: Input to email with: automationfc@gmail.com
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- Admin_07_Create_New_Customer -->
+        <test-method is-config="true" signature="affterClass()[pri:0, instance:com.nopcommerce.user.Admin_01_Search_Products@7d898981]" started-at="2023-09-11T11:12:44Z" name="affterClass" finished-at="2023-09-11T11:12:46Z" duration-ms="2128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- affterClass -->
       </class> <!-- com.nopcommerce.user.Admin_01_Search_Products -->
     </test> <!-- Run on Firefox -->
   </suite> <!-- Suite -->

@@ -1,5 +1,45 @@
-[INFO ] [2023-09-08 19:01:47,426] Pre-condition - Step 01: Open browser
-[INFO ] [2023-09-08 19:01:56,948] Admin_01_Search_With_Product_Name: Click to Customers
-[INFO ] [2023-09-08 19:01:58,339] Admin_01_Search_With_Product_Name: Click to circle Customers
-[INFO ] [2023-09-08 19:02:00,222] Admin_01_Search_With_Product_Name: Click to add new
-[INFO ] [2023-09-08 19:02:02,557] Admin_01_Search_With_Product_Name: Input to email with: automationfc@gmail.com
+[INFO ] [2023-09-11 18:11:47,422] Pre-condition - Step 01: Open browser
+[INFO ] [2023-09-11 18:11:58,178] Admin_01_Search_With_Product_Name: Click to Catalog
+[INFO ] [2023-09-11 18:11:59,496] Admin_01_Search_With_Product_Name: Click to Products
+[INFO ] [2023-09-11 18:12:01,458] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-11 18:12:01,625] Admin_01_Search_With_Product_Name: Click button search product
+[INFO ] [2023-09-11 18:12:01,955] Admin_01_Search_With_Product_Name: Get size products
+[INFO ] [2023-09-11 18:12:02,047]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:12:02,048] Admin_01_Search_With_Product_Name: Get text product name 
+[INFO ] [2023-09-11 18:12:02,107]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:12:02,107] Admin_01_Search_With_Product_Name: Get text price product 
+[INFO ] [2023-09-11 18:12:02,152]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:12:02,231] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-11 18:12:02,418] Admin_01_Search_With_Product_Name: Select category with computers
+[INFO ] [2023-09-11 18:12:02,740] Admin_01_Search_With_Product_Name: Click button search product
+[INFO ] [2023-09-11 18:12:03,078] Admin_01_Search_With_Product_Name: Verify search no data
+[INFO ] [2023-09-11 18:12:03,224]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:12:03,232] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-11 18:12:03,405] Admin_01_Search_With_Product_Name: Select category with computers
+[INFO ] [2023-09-11 18:12:03,785] Admin_01_Search_With_Product_Name: Click button search product
+[INFO ] [2023-09-11 18:12:04,154]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:12:04,154] Admin_01_Search_With_Product_Name: Get text product name 
+[INFO ] [2023-09-11 18:12:04,220]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:12:04,220] Admin_01_Search_With_Product_Name: Get text price product 
+[INFO ] [2023-09-11 18:12:04,266]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:12:04,271] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-11 18:12:04,435] Admin_01_Search_With_Product_Name: Select category with computers - desktops
+[INFO ] [2023-09-11 18:12:05,072] Admin_01_Search_With_Product_Name: Click button search product
+[INFO ] [2023-09-11 18:12:05,451]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:12:05,451] Admin_01_Search_With_Product_Name: Get text product name 
+[INFO ] [2023-09-11 18:12:05,501]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:12:05,501] Admin_01_Search_With_Product_Name: Get text price product 
+[INFO ] [2023-09-11 18:12:05,542]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:12:05,547] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-11 18:12:05,724] Admin_01_Search_With_Product_Name: Select category with computers - desktops
+[INFO ] [2023-09-11 18:12:06,038] Admin_01_Search_With_Product_Name: Unselect search by checkbox
+[INFO ] [2023-09-11 18:12:06,140] Admin_01_Search_With_Product_Name: Select manufacturer with Apple
+[INFO ] [2023-09-11 18:12:06,463] Admin_01_Search_With_Product_Name: Click button search product
+[INFO ] [2023-09-11 18:12:06,829] Admin_01_Search_With_Product_Name: Verify search no data
+[INFO ] [2023-09-11 18:12:06,978]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-09-11 18:12:06,984] Admin_01_Search_With_Product_Name: Click to Catalog
+[INFO ] [2023-09-11 18:12:08,290] Admin_01_Search_With_Product_Name: Click to Products
+[INFO ] [2023-09-11 18:12:38,422] Admin_01_Search_With_Product_Name: Click to Customers
+[INFO ] [2023-09-11 18:12:39,818] Admin_01_Search_With_Product_Name: Click to circle Customers
+[INFO ] [2023-09-11 18:12:42,137] Admin_01_Search_With_Product_Name: Click to add new
+[INFO ] [2023-09-11 18:12:44,228] Admin_01_Search_With_Product_Name: Input to email with: automationfc@gmail.com

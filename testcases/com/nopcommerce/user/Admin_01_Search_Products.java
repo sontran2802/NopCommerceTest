@@ -7,6 +7,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
+import commons.GlobalConstants;
 import commons.PageGeneratorManager;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -29,7 +30,7 @@ public class Admin_01_Search_Products extends BaseTest {
 
 		System.out.println("Run on " + browserName);
 		log.info("Pre-condition - Step 01: Open browser");
-		driver = getBrowserDriver(browserName);
+		driver = getBrowserDriver(browserName, GlobalConstants.ADMIN_PAGE_URL);
 		adminLoginPage = PageGeneratorManager.getAdminLoginPage(driver);
 		adminDashBoard = adminLoginPage.clickToLoginButton();
 		sleepInSecond(1);
@@ -47,6 +48,7 @@ public class Admin_01_Search_Products extends BaseTest {
 
 	}
 
+	@Test
 	public void Admin_01_Search_With_Product_Name() {
 		log.info("Admin_01_Search_With_Product_Name: Click to Catalog");
 		adminDashBoard.clickToSidebarBylabel("Catalog");
@@ -66,6 +68,7 @@ public class Admin_01_Search_Products extends BaseTest {
 
 	}
 
+	@Test
 	public void Admin_02_Search_With_Product_Name_Catefory() {
 		log.info("Admin_01_Search_With_Product_Name: Input to product name with: " + productName);
 
@@ -79,6 +82,7 @@ public class Admin_01_Search_Products extends BaseTest {
 
 	}
 
+	@Test
 	public void Admin_03_Search_With_Product_Name_Catefory_Checked() {
 		log.info("Admin_01_Search_With_Product_Name: Input to product name with: " + productName);
 
@@ -95,6 +99,7 @@ public class Admin_01_Search_Products extends BaseTest {
 		verifyEquals(adminDashBoard.getInfoProduct("5"), "500");
 	}
 
+	@Test
 	public void Admin_04_Search_With_Product_Name_Child_Catefory() {
 		log.info("Admin_01_Search_With_Product_Name: Input to product name with: " + productName);
 
@@ -112,6 +117,7 @@ public class Admin_01_Search_Products extends BaseTest {
 
 	}
 
+	@Test
 	public void Admin_05_Search_With_Product_Name_ManuFacTurer() {
 		log.info("Admin_01_Search_With_Product_Name: Input to product name with: " + productName);
 
@@ -129,6 +135,7 @@ public class Admin_01_Search_Products extends BaseTest {
 
 	}
 
+	@Test
 	public void Admin_06_Search_With_Product_Go_Directly() {
 		log.info("Admin_01_Search_With_Product_Name: Click to Catalog");
 		adminDashBoard.clickToSidebarBylabel("Catalog");

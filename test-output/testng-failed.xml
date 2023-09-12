@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Run on Firefox(failed)">
+    <parameter name="browser" value="firefox"/>
     <classes>
       <class name="com.nopcommerce.user.Admin_01_Search_Products">
         <methods>
-          <include name="Admin_07_Create_New_Customer"/>
+          <include name="Admin_06_Search_With_Product_Go_Directly"/>
+          <include name="affterClass"/>
           <include name="beforeClass"/>
         </methods>
       </class> <!-- com.nopcommerce.user.Admin_01_Search_Products -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Run on Firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

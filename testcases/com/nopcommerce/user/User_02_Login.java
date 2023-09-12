@@ -13,6 +13,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
+import commons.GlobalConstants;
 import pageObjects.nomCommerce.user.HomePageObject;
 import pageObjects.nomCommerce.user.LoginPageObject;
 import pageObjects.nomCommerce.user.RegisterPageObject;
@@ -31,7 +32,7 @@ public class User_02_Login extends BaseTest {
 
 //		System.setProperty("webdriver.gecko.driver", projectPath + "\\browserDriver\\geckodriver.exe");
 //		driver = new FirefoxDriver();
-		driver = getBrowserDriver(browserName);
+		driver = getBrowserDriver(browserName, GlobalConstants.PORTAL_PAGE_URL);
 		loginPage = new LoginPageObject(driver);
 
 		emailAddress = "Automation" + generateFakeNumber() + "@gmail.com";

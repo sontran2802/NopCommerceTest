@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 
 import PageUIs.nopcommerce.user.ShoppingCartPageUI;
 import commons.BaseTest;
+import commons.GlobalConstants;
 import commons.PageGeneratorManager;
 import pageObjects.nomCommerce.user.CompareProductsPageObject;
 import pageObjects.nomCommerce.user.DetailPageObject;
@@ -38,7 +39,7 @@ public class User_08_Shopping_Cart extends BaseTest {
 	@BeforeClass
 	public void beforeClass(String browserName) {
 
-		driver = getBrowserDriver(browserName);
+		driver = getBrowserDriver(browserName, GlobalConstants.PORTAL_PAGE_URL);
 
 		emailAddress = "Automation" + generateFakeNumber() + "@gmail.com";
 		firstName = "Autonmation";

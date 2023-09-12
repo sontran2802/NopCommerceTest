@@ -6,6 +6,7 @@ import com.beust.jcommander.Parameter;
 
 import commons.BasePage;
 import commons.BaseTest;
+import commons.GlobalConstants;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Step;
@@ -41,7 +42,7 @@ public class User_01_Register extends BaseTest {
 
 		System.out.println("Run on " + browserName);
 		log.info("Pre-condition - Step 01: Open browser");
-		driver = getBrowserDriver(browserName);
+		driver = getBrowserDriver(browserName, GlobalConstants.PORTAL_PAGE_URL);
 
 		homePage = new HomePageObject(driver);
 		registerPage = new RegisterPageObject(driver);

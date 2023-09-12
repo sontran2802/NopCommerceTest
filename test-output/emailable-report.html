@@ -9,14 +9,71 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Run on Firefox</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">15,616</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Run on Firefox</a></td><td class="num">6</td><td class="num">0</td><td class="num attn">1</td><td class="num">59,330</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Run on Firefox &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.nopcommerce.user.Admin_01_Search_Products</td><td><a href="#m0">Admin_07_Create_New_Customer</a></td><td rowspan="1">1694174516883</td><td rowspan="1">6021</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Run on Firefox &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.nopcommerce.user.Admin_01_Search_Products</td><td><a href="#m0">Admin_06_Search_With_Product_Go_Directly</a></td><td rowspan="1">1694430726981</td><td rowspan="1">31420</td></tr><tr><th colspan="4">Run on Firefox &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">com.nopcommerce.user.Admin_01_Search_Products</td><td><a href="#m1">Admin_01_Search_With_Product_Name</a></td><td rowspan="1">1694430718105</td><td rowspan="1">4047</td></tr><tr class="passedeven"><td><a href="#m2">Admin_02_Search_With_Product_Name_Catefory</a></td><td rowspan="1">1694430722227</td><td rowspan="1">997</td></tr><tr class="passedeven"><td><a href="#m3">Admin_03_Search_With_Product_Name_Catefory_Checked</a></td><td rowspan="1">1694430723229</td><td rowspan="1">1037</td></tr><tr class="passedeven"><td><a href="#m4">Admin_04_Search_With_Product_Name_Child_Catefory</a></td><td rowspan="1">1694430724268</td><td rowspan="1">1274</td></tr><tr class="passedeven"><td><a href="#m5">Admin_05_Search_With_Product_Name_ManuFacTurer</a></td><td rowspan="1">1694430725544</td><td rowspan="1">1435</td></tr><tr class="passedeven"><td><a href="#m6">Admin_07_Create_New_Customer</a></td><td rowspan="1">1694430758417</td><td rowspan="1">6170</td></tr></tbody>
 </table>
-<h2>Run on Firefox</h2><h3 id="m0">com.nopcommerce.user.Admin_01_Search_Products#Admin_07_Create_New_Customer</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">[INFO ] [2023-09-08 19:01:56,948] Admin_01_Search_With_Product_Name: Click to Customers
-<br><br/>[INFO ] [2023-09-08 19:01:58,339] Admin_01_Search_With_Product_Name: Click to circle Customers
-<br><br/>[INFO ] [2023-09-08 19:02:00,222] Admin_01_Search_With_Product_Name: Click to add new
-<br><br/>[INFO ] [2023-09-08 19:02:02,557] Admin_01_Search_With_Product_Name: Input to email with: automationfc@gmail.com
+<h2>Run on Firefox</h2><h3 id="m0">com.nopcommerce.user.Admin_01_Search_Products#Admin_06_Search_With_Product_Go_Directly</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">[INFO ] [2023-09-11 18:12:06,984] Admin_01_Search_With_Product_Name: Click to Catalog
+<br><br/>[INFO ] [2023-09-11 18:12:08,290] Admin_01_Search_With_Product_Name: Click to Products
+<br></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //p[contains(text(),&apos; Products&apos;)]/parent::a/i (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-M8CJ0LM&apos;, ip: &apos;172.17.52.180&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14536, moz:profile: C:\Users\ths28\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: efc3db14-0aa8-44c8-b023-7fbcd38cdba8
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at commons.BasePage.waitForElementVisible(BasePage.java:445)
+	at pageObjects.nopCommerce.admin.AdminDashBoardPageObject.clickToSidebarBylabel(AdminDashBoardPageObject.java:21)
+	at com.nopcommerce.user.Admin_01_Search_Products.Admin_06_Search_With_Product_Go_Directly(Admin_01_Search_Products.java:143)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.nopcommerce.user.Admin_01_Search_Products#Admin_01_Search_With_Product_Name</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">[INFO ] [2023-09-11 18:11:58,178] Admin_01_Search_With_Product_Name: Click to Catalog
+<br><br/>[INFO ] [2023-09-11 18:11:59,496] Admin_01_Search_With_Product_Name: Click to Products
+<br><br/>[INFO ] [2023-09-11 18:12:01,458] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+<br><br/>[INFO ] [2023-09-11 18:12:01,625] Admin_01_Search_With_Product_Name: Click button search product
+<br><br/>[INFO ] [2023-09-11 18:12:01,955] Admin_01_Search_With_Product_Name: Get size products
+<br><br/>[INFO ] [2023-09-11 18:12:02,047]  -------------------------- PASSED -------------------------- 
+<br><br/>[INFO ] [2023-09-11 18:12:02,048] Admin_01_Search_With_Product_Name: Get text product name 
+<br><br/>[INFO ] [2023-09-11 18:12:02,107]  -------------------------- PASSED -------------------------- 
+<br><br/>[INFO ] [2023-09-11 18:12:02,107] Admin_01_Search_With_Product_Name: Get text price product 
+<br><br/>[INFO ] [2023-09-11 18:12:02,152]  -------------------------- PASSED -------------------------- 
+<br></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.nopcommerce.user.Admin_01_Search_Products#Admin_02_Search_With_Product_Name_Catefory</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">[INFO ] [2023-09-11 18:12:02,231] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+<br><br/>[INFO ] [2023-09-11 18:12:02,418] Admin_01_Search_With_Product_Name: Select category with computers
+<br><br/>[INFO ] [2023-09-11 18:12:02,740] Admin_01_Search_With_Product_Name: Click button search product
+<br><br/>[INFO ] [2023-09-11 18:12:03,078] Admin_01_Search_With_Product_Name: Verify search no data
+<br><br/>[INFO ] [2023-09-11 18:12:03,224]  -------------------------- PASSED -------------------------- 
+<br></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.nopcommerce.user.Admin_01_Search_Products#Admin_03_Search_With_Product_Name_Catefory_Checked</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">[INFO ] [2023-09-11 18:12:03,232] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+<br><br/>[INFO ] [2023-09-11 18:12:03,405] Admin_01_Search_With_Product_Name: Select category with computers
+<br><br/>[INFO ] [2023-09-11 18:12:03,785] Admin_01_Search_With_Product_Name: Click button search product
+<br><br/>[INFO ] [2023-09-11 18:12:04,154]  -------------------------- PASSED -------------------------- 
+<br><br/>[INFO ] [2023-09-11 18:12:04,154] Admin_01_Search_With_Product_Name: Get text product name 
+<br><br/>[INFO ] [2023-09-11 18:12:04,220]  -------------------------- PASSED -------------------------- 
+<br><br/>[INFO ] [2023-09-11 18:12:04,220] Admin_01_Search_With_Product_Name: Get text price product 
+<br><br/>[INFO ] [2023-09-11 18:12:04,266]  -------------------------- PASSED -------------------------- 
+<br></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.nopcommerce.user.Admin_01_Search_Products#Admin_04_Search_With_Product_Name_Child_Catefory</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">[INFO ] [2023-09-11 18:12:04,271] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+<br><br/>[INFO ] [2023-09-11 18:12:04,435] Admin_01_Search_With_Product_Name: Select category with computers - desktops
+<br><br/>[INFO ] [2023-09-11 18:12:05,072] Admin_01_Search_With_Product_Name: Click button search product
+<br><br/>[INFO ] [2023-09-11 18:12:05,451]  -------------------------- PASSED -------------------------- 
+<br><br/>[INFO ] [2023-09-11 18:12:05,451] Admin_01_Search_With_Product_Name: Get text product name 
+<br><br/>[INFO ] [2023-09-11 18:12:05,501]  -------------------------- PASSED -------------------------- 
+<br><br/>[INFO ] [2023-09-11 18:12:05,501] Admin_01_Search_With_Product_Name: Get text price product 
+<br><br/>[INFO ] [2023-09-11 18:12:05,542]  -------------------------- PASSED -------------------------- 
+<br></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.nopcommerce.user.Admin_01_Search_Products#Admin_05_Search_With_Product_Name_ManuFacTurer</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">[INFO ] [2023-09-11 18:12:05,547] Admin_01_Search_With_Product_Name: Input to product name with: Lenovo IdeaCentre 600 All-in-One PC
+<br><br/>[INFO ] [2023-09-11 18:12:05,724] Admin_01_Search_With_Product_Name: Select category with computers - desktops
+<br><br/>[INFO ] [2023-09-11 18:12:06,038] Admin_01_Search_With_Product_Name: Unselect search by checkbox
+<br><br/>[INFO ] [2023-09-11 18:12:06,140] Admin_01_Search_With_Product_Name: Select manufacturer with Apple
+<br><br/>[INFO ] [2023-09-11 18:12:06,463] Admin_01_Search_With_Product_Name: Click button search product
+<br><br/>[INFO ] [2023-09-11 18:12:06,829] Admin_01_Search_With_Product_Name: Verify search no data
+<br><br/>[INFO ] [2023-09-11 18:12:06,978]  -------------------------- PASSED -------------------------- 
+<br></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.nopcommerce.user.Admin_01_Search_Products#Admin_07_Create_New_Customer</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">[INFO ] [2023-09-11 18:12:38,422] Admin_01_Search_With_Product_Name: Click to Customers
+<br><br/>[INFO ] [2023-09-11 18:12:39,818] Admin_01_Search_With_Product_Name: Click to circle Customers
+<br><br/>[INFO ] [2023-09-11 18:12:42,137] Admin_01_Search_With_Product_Name: Click to add new
+<br><br/>[INFO ] [2023-09-11 18:12:44,228] Admin_01_Search_With_Product_Name: Input to email with: automationfc@gmail.com
 <br></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

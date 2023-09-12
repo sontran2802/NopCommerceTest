@@ -6,6 +6,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
+import commons.GlobalConstants;
 import commons.PageGeneratorManager;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -25,7 +26,7 @@ public class Admin_01_Search_Products extends BaseTest {
 
 		System.out.println("Run on " + browserName);
 		log.info("Pre-condition - Step 01: Open browser");
-		driver = getBrowserDriver(browserName);
+		driver = getBrowserDriver(browserName, GlobalConstants.ADMIN_PAGE_URL);
 		adminLoginPage = PageGeneratorManager.getAdminLoginPage(driver);
 		adminDashBoard = adminLoginPage.clickToLoginButton();
 		productName = "Lenovo IdeaCentre 600All-in-One PC";

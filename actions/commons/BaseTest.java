@@ -28,7 +28,7 @@ public class BaseTest {
 		CHROME, FIREFOX;
 	}
 
-	protected WebDriver getBrowserDriver(String browserName) {
+	protected WebDriver getBrowserDriver(String browserName, String URL) {
 		BROWSER browser = BROWSER.valueOf(browserName.toUpperCase());
 		if (browser == BROWSER.FIREFOX) {
 			System.setProperty("webdriver.gecko.driver", projectPath + "\\browserDriver\\geckodriver.exe");
@@ -54,7 +54,7 @@ public class BaseTest {
 		}
 
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driver.get(GlobalConstants.ADMIN_PAGE_URL);
+		driver.get(URL);
 		return driver;
 	}
 

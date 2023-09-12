@@ -9,6 +9,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
+import commons.GlobalConstants;
 import pageObjects.nomCommerce.user.HomePageObject;
 import pageObjects.nomCommerce.user.LoginPageObject;
 import pageObjects.nomCommerce.user.MyAccountPageObject;
@@ -27,7 +28,7 @@ public class User_03_My_Account extends BaseTest {
 	@Parameters("browser")
 	@BeforeClass
 	public void beforeClass(String browserName) {
-		driver = getBrowserDriver(browserName);
+		driver = getBrowserDriver(browserName, GlobalConstants.PORTAL_PAGE_URL);
 
 		emailAddress = "Automation" + generateFakeNumber() + "@gmail.com";
 		firstName = "Autonmation";

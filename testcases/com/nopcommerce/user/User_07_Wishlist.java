@@ -7,6 +7,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
+import commons.GlobalConstants;
 import pageObjects.nomCommerce.user.CompareProductsPageObject;
 import pageObjects.nomCommerce.user.DetailPageObject;
 import pageObjects.nomCommerce.user.HomePageObject;
@@ -30,7 +31,7 @@ public class User_07_Wishlist extends BaseTest {
 	@Parameters("browser")
 	@BeforeClass
 	public void beforeClass(String browserName) {
-		driver = getBrowserDriver(browserName);
+		driver = getBrowserDriver(browserName, GlobalConstants.PORTAL_PAGE_URL);
 
 		emailAddress = "Automation" + generateFakeNumber() + "@gmail.com";
 		firstName = "Autonmation";
